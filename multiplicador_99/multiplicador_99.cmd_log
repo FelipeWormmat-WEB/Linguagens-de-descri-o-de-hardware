@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn __projnav/multiplicador_99.xst -ofn multiplicador_99.syr
+ngdbuild -intstyle ise -dd "c:\users\felipe\desktop\multiplicador_99/_ngo" -nt timestamp -i  -p xc3s500e-fg320-4 multiplicador_99.ngc multiplicador_99.ngd

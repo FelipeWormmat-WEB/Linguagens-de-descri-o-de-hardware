@@ -1,0 +1,11 @@
+# begin LFP file C:\Users\Felipe\Desktop\P1 - Micro\projeto\projeto.lfp
+designfile projeto.ngd
+IO_GROUP "porta"  ;
+NET "porta<7>" IO_GROUP="porta"  ;
+NET "porta<6>" IO_GROUP="porta"  ;
+NET "porta<5>" IO_GROUP="porta"  ;
+NET "porta<4>" IO_GROUP="porta"  ;
+NET "porta<3>" IO_GROUP="porta"  ;
+NET "porta<2>" IO_GROUP="porta"  ;
+NET "porta<1>" IO_GROUP="porta"  ;
+NET "porta<0>" IO_GROUP="porta"  ;

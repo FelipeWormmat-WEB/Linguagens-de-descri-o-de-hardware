@@ -1,0 +1,36 @@
+//! **************************************************************************
+// Written by: Map H.41 on Wed Apr 03 19:56:59 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "segmento<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "segmento<1>" LOCATE = SITE "F18" LEVEL 1;
+COMP "segmento<2>" LOCATE = SITE "D17" LEVEL 1;
+COMP "segmento<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "segmento<4>" LOCATE = SITE "G14" LEVEL 1;
+COMP "segmento<5>" LOCATE = SITE "J17" LEVEL 1;
+COMP "segmento<6>" LOCATE = SITE "H14" LEVEL 1;
+COMP "segmento<7>" LOCATE = SITE "C17" LEVEL 1;
+COMP "clock" LOCATE = SITE "B8" LEVEL 1;
+COMP "reset" LOCATE = SITE "B18" LEVEL 1;
+COMP "display<0>" LOCATE = SITE "F17" LEVEL 1;
+COMP "display<1>" LOCATE = SITE "H17" LEVEL 1;
+COMP "display<2>" LOCATE = SITE "C18" LEVEL 1;
+COMP "display<3>" LOCATE = SITE "F15" LEVEL 1;
+NET "clock_BUFGP/IBUFG" BEL "clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+TIMEGRP clock = BEL "contador_14" BEL "contador_2" BEL "contador_3" BEL
+        "unidade_2" BEL "contador_5" BEL "contador_20" BEL "transistor_1" BEL
+        "segmentos_7" BEL "contador_17" BEL "unidade_3" BEL "contador_7" BEL
+        "contador_4" BEL "contador_1" BEL "contador_0" BEL "contador_9" BEL
+        "contador_8" BEL "contador_10" BEL "mux_12" BEL "unidade_1" BEL
+        "segmentos_0" BEL "segmentos_1" BEL "segmentos_2" BEL "segmentos_3"
+        BEL "contador_23" BEL "contador_6" BEL "segmentos_4" BEL "segmentos_5"
+        BEL "segmentos_6" BEL "unidade_0" BEL "contador_22" BEL "contador_19"
+        BEL "contador_15" BEL "contador_13" BEL "mux_13" BEL "mux_0" BEL
+        "mux_1" BEL "mux_2" BEL "mux_3" BEL "mux_4" BEL "mux_5" BEL "mux_6"
+        BEL "mux_7" BEL "mux_8" BEL "mux_9" BEL "mux_10" BEL "mux_11" BEL
+        "transistor_0" BEL "dezena_3" BEL "contador_16" BEL "dezena_0" BEL
+        "dezena_1" BEL "dezena_2" BEL "contador_18" BEL "contador_12" BEL
+        "contador_21" BEL "contador_11" BEL "contador_24" BEL "contador_25";
+TS_clock = PERIOD TIMEGRP "clock" 10 ns HIGH 50%;
+SCHEMATIC END;

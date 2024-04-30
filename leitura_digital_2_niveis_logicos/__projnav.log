@@ -1,0 +1,2655 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax for Simulation".
+
+Compiling vhdl file "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" in Library isim_temp.
+Entity <leitura_digitais_2_niveis> compiled.
+ERROR:HDLParsers:164 - "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" Line 40. parse error, unexpected SIGNAL, expecting SEMICOLON
+ERROR:HDLParsers:3312 - "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" Line 42. Undefined symbol 'rest'.
+ERROR:HDLParsers:1209 - "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" Line 42. rest: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" Line 46. Undefined symbol 'estado'.
+ERROR:HDLParsers:3312 - "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" Line 47. Undefined symbol 'tempo'.
+ERROR:HDLParsers:1209 - "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" Line 49. estado: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" Line 51. tempo: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" Line 86. parse error, unexpected PROCESS, expecting IF
+ERROR:HDLParsers:164 - "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" Line 88. parse error, unexpected IDENTIFIER, expecting IF
+Parsing "leitura_digitais_2_niveis_stx.prj": 0.03
+ERROR: vhpcomp failed
+Process "Check Syntax for Simulation" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax for Simulation".
+
+Compiling vhdl file "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" in Library isim_temp.
+Entity <leitura_digitais_2_niveis> compiled.
+ERROR:HDLParsers:164 - "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" Line 40. parse error, unexpected SIGNAL, expecting SEMICOLON
+ERROR:HDLParsers:3312 - "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" Line 46. Undefined symbol 'estado'.
+ERROR:HDLParsers:3312 - "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" Line 47. Undefined symbol 'tempo'.
+ERROR:HDLParsers:1209 - "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" Line 49. estado: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" Line 51. tempo: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" Line 86. parse error, unexpected PROCESS, expecting IF
+ERROR:HDLParsers:164 - "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" Line 88. parse error, unexpected IDENTIFIER, expecting IF
+Parsing "leitura_digitais_2_niveis_stx.prj": 0.02
+ERROR: vhpcomp failed
+Process "Check Syntax for Simulation" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax for Simulation".
+
+Compiling vhdl file "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" in Library isim_temp.
+Entity <leitura_digitais_2_niveis> compiled.
+Entity <leitura_digitais_2_niveis> (Architecture <Behavioral>) compiled.
+Parsing "leitura_digitais_2_niveis_stx.prj": 0.02
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" in Library work.
+Entity <leitura_digitais_2_niveis> compiled.
+Entity <leitura_digitais_2_niveis> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <leitura_digitais_2_niveis> (Architecture <Behavioral>).
+INFO:Xst:1304 - Contents of register <count> in unit <leitura_digitais_2_niveis> never changes during circuit operation. The register is replaced by logic.
+Entity <leitura_digitais_2_niveis> analyzed. Unit <leitura_digitais_2_niveis> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <leitura_digitais_2_niveis>.
+    Related source file is "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd".
+    Found 23-bit adder for signal <$n0004> created at line 41.
+    Found 1-bit register for signal <estado<0>>.
+    Found 23-bit register for signal <tempo>.
+    Summary:
+	inferred  24 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <leitura_digitais_2_niveis> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <leitura_digitais_2_niveis> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block leitura_digitais_2_niveis, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of bonded IOBs:                  7  out of    232     3%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo -nt timestamp -uc
+leitura_digitais_2_niveis.ucf -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc
+leitura_digitais_2_niveis.ngd 
+
+Reading NGO file
+'C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niv
+eis.ngc' ...
+
+Applying constraints in "leitura_digitais_2_niveis.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "leitura_digitais_2_niveis.ngd" ...
+
+Writing NGDBUILD log file "leitura_digitais_2_niveis.bld"...
+
+NGDBUILD done.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo -nt timestamp -uc
+leitura_digitais_2_niveis.ucf -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc
+leitura_digitais_2_niveis.ngd 
+
+Reading NGO file
+'C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niv
+eis.ngc' ...
+
+Applying constraints in "leitura_digitais_2_niveis.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "leitura_digitais_2_niveis.ngd" ...
+
+Writing NGDBUILD log file "leitura_digitais_2_niveis.bld"...
+
+NGDBUILD done.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo -nt timestamp -uc
+leitura_digitais_2_niveis.ucf -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc
+leitura_digitais_2_niveis.ngd 
+
+Reading NGO file
+'C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niv
+eis.ngc' ...
+
+Applying constraints in "leitura_digitais_2_niveis.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "leitura_digitais_2_niveis.ngd" ...
+
+Writing NGDBUILD log file "leitura_digitais_2_niveis.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    5
+Logic Utilization:
+Logic Distribution:
+    Number of Slices containing only related logic:       0 out of       0    0%
+    Number of Slices containing unrelated logic:          0 out of       0    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+  Number of bonded IOBs:                7 out of     232    3%
+
+Total equivalent gate count for design:  0
+Additional JTAG gate count for IOBs:  336
+Peak Memory Usage:  190 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "leitura_digitais_2_niveis_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: leitura_digitais_2_niveis.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "leitura_digitais_2_niveis" is an NCD, version 3.1, device xc3s500e, package
+fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of External IBUFs            3 out of 232     1%
+      Number of LOCed IBUFs            3 out of 3     100%
+
+   Number of External IOBs             4 out of 176     2%
+      Number of LOCed IOBs             4 out of 4     100%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+WARNING:Par:276 - The signal entrada_IBUF has no load
+WARNING:Par:276 - The signal clock_IBUF has no load
+WARNING:Par:276 - The signal reset_IBUF has no load
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:98968d) REAL time: 0 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.2
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+Phase 5.8 (Checksum:2faf07b) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 0 secs 
+
+Writing design to file leitura_digitais_2_niveis.ncd
+
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+Starting Router
+
+Phase 1: 4 unrouted;       REAL time: 0 secs 
+
+Phase 2: 4 unrouted;       REAL time: 0 secs 
+
+Phase 3: 0 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "PAR" statistics.
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  134 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 3
+Number of info messages: 1
+
+Writing design to file leitura_digitais_2_niveis.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "leitura_digitais_2_niveis" is an NCD, version 3.1, device xc3s500e, package
+fg320, speed -4
+
+Analysis completed Wed Mar 27 19:54:20 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+WARNING:PhysDesignRules:367 - The signal <entrada_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <clock_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <reset_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" in Library work.
+Entity <leitura_digitais_2_niveis> compiled.
+Entity <leitura_digitais_2_niveis> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <leitura_digitais_2_niveis> (Architecture <behavioral>).
+INFO:Xst:1304 - Contents of register <count> in unit <leitura_digitais_2_niveis> never changes during circuit operation. The register is replaced by logic.
+Entity <leitura_digitais_2_niveis> analyzed. Unit <leitura_digitais_2_niveis> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <leitura_digitais_2_niveis>.
+    Related source file is "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd".
+    Found 23-bit adder for signal <$n0004> created at line 41.
+    Found 1-bit register for signal <estado<0>>.
+    Found 23-bit register for signal <tempo>.
+    Summary:
+	inferred  24 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <leitura_digitais_2_niveis> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <leitura_digitais_2_niveis> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block leitura_digitais_2_niveis, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of bonded IOBs:                  7  out of    232     3%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo -nt timestamp -uc
+leitura_digitais_2_niveis.ucf -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc
+leitura_digitais_2_niveis.ngd 
+
+Reading NGO file
+'C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niv
+eis.ngc' ...
+
+Applying constraints in "leitura_digitais_2_niveis.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "leitura_digitais_2_niveis.ngd" ...
+
+Writing NGDBUILD log file "leitura_digitais_2_niveis.bld"...
+
+NGDBUILD done.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    5
+Logic Utilization:
+Logic Distribution:
+    Number of Slices containing only related logic:       0 out of       0    0%
+    Number of Slices containing unrelated logic:          0 out of       0    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+  Number of bonded IOBs:                7 out of     232    3%
+
+Total equivalent gate count for design:  0
+Additional JTAG gate count for IOBs:  336
+Peak Memory Usage:  189 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "leitura_digitais_2_niveis_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: leitura_digitais_2_niveis.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "leitura_digitais_2_niveis" is an NCD, version 3.1, device xc3s500e, package
+fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of External IBUFs            3 out of 232     1%
+      Number of LOCed IBUFs            3 out of 3     100%
+
+   Number of External IOBs             4 out of 176     2%
+      Number of LOCed IOBs             4 out of 4     100%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+WARNING:Par:276 - The signal entrada_IBUF has no load
+WARNING:Par:276 - The signal clock_IBUF has no load
+WARNING:Par:276 - The signal reset_IBUF has no load
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:98968d) REAL time: 0 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.2
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+Phase 5.8 (Checksum:2faf07b) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 0 secs 
+
+Writing design to file leitura_digitais_2_niveis.ncd
+
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+Starting Router
+
+Phase 1: 4 unrouted;       REAL time: 0 secs 
+
+Phase 2: 4 unrouted;       REAL time: 0 secs 
+
+Phase 3: 0 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "PAR" statistics.
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  134 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 3
+Number of info messages: 1
+
+Writing design to file leitura_digitais_2_niveis.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "leitura_digitais_2_niveis" is an NCD, version 3.1, device xc3s500e, package
+fg320, speed -4
+
+Analysis completed Wed Mar 27 19:57:36 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+WARNING:PhysDesignRules:367 - The signal <entrada_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <clock_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <reset_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+Plugin HSimPlugin couldn't be found
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax for Simulation".
+
+Compiling vhdl file "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" in Library isim_temp.
+Entity <leitura_digitais_2_niveis> compiled.
+Entity <leitura_digitais_2_niveis> (Architecture <behavioral>) compiled.
+Parsing "leitura_digitais_2_niveis_stx.prj": 0.03
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" in Library work.
+Entity <leitura_digitais_2_niveis> compiled.
+Entity <leitura_digitais_2_niveis> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <leitura_digitais_2_niveis> (Architecture <behavioral>).
+INFO:Xst:1304 - Contents of register <count> in unit <leitura_digitais_2_niveis> never changes during circuit operation. The register is replaced by logic.
+Entity <leitura_digitais_2_niveis> analyzed. Unit <leitura_digitais_2_niveis> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <leitura_digitais_2_niveis>.
+    Related source file is "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd".
+    Found 23-bit adder for signal <$n0004> created at line 60.
+    Found 1-bit register for signal <estado<0>>.
+    Found 23-bit register for signal <tempo>.
+    Summary:
+	inferred  24 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <leitura_digitais_2_niveis> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <leitura_digitais_2_niveis> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block leitura_digitais_2_niveis, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of bonded IOBs:                  7  out of    232     3%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo -nt timestamp -uc
+leitura_digitais_2_niveis.ucf -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc
+leitura_digitais_2_niveis.ngd 
+
+Reading NGO file
+'C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niv
+eis.ngc' ...
+
+Applying constraints in "leitura_digitais_2_niveis.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "leitura_digitais_2_niveis.ngd" ...
+
+Writing NGDBUILD log file "leitura_digitais_2_niveis.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    5
+Logic Utilization:
+Logic Distribution:
+    Number of Slices containing only related logic:       0 out of       0    0%
+    Number of Slices containing unrelated logic:          0 out of       0    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+  Number of bonded IOBs:                7 out of     232    3%
+
+Total equivalent gate count for design:  0
+Additional JTAG gate count for IOBs:  336
+Peak Memory Usage:  189 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "leitura_digitais_2_niveis_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: leitura_digitais_2_niveis.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "leitura_digitais_2_niveis" is an NCD, version 3.1, device xc3s500e, package
+fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of External IBUFs            3 out of 232     1%
+      Number of LOCed IBUFs            3 out of 3     100%
+
+   Number of External IOBs             4 out of 176     2%
+      Number of LOCed IOBs             4 out of 4     100%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+WARNING:Par:276 - The signal entrada_IBUF has no load
+WARNING:Par:276 - The signal clock_IBUF has no load
+WARNING:Par:276 - The signal reset_IBUF has no load
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:98968d) REAL time: 0 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.2
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.8
+Phase 5.8 (Checksum:2faf07b) REAL time: 0 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 0 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 0 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 0 secs 
+
+Writing design to file leitura_digitais_2_niveis.ncd
+
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+Starting Router
+
+Phase 1: 4 unrouted;       REAL time: 0 secs 
+
+Phase 2: 4 unrouted;       REAL time: 0 secs 
+
+Phase 3: 0 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "PAR" statistics.
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 0 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  135 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 3
+Number of info messages: 1
+
+Writing design to file leitura_digitais_2_niveis.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "leitura_digitais_2_niveis" is an NCD, version 3.1, device xc3s500e, package
+fg320, speed -4
+
+Analysis completed Wed Mar 27 19:59:48 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax for Simulation".
+
+Compiling vhdl file "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" in Library isim_temp.
+Entity <leitura_digitais_2_niveis> compiled.
+Entity <leitura_digitais_2_niveis> (Architecture <behavioral>) compiled.
+Parsing "leitura_digitais_2_niveis_stx.prj": 0.06
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" in Library work.
+Entity <leitura_digitais_2_niveis> compiled.
+Entity <leitura_digitais_2_niveis> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <leitura_digitais_2_niveis> (Architecture <behavioral>).
+Entity <leitura_digitais_2_niveis> analyzed. Unit <leitura_digitais_2_niveis> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <leitura_digitais_2_niveis>.
+    Related source file is "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd".
+    Found 26-bit adder for signal <$n0007> created at line 73.
+    Found 4-bit up counter for signal <count>.
+    Found 1-bit register for signal <estado<0>>.
+    Found 26-bit register for signal <tempo>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  27 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <leitura_digitais_2_niveis> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 26-bit adder                      : 1
+# Counters                         : 1
+ 4-bit up counter                  : 1
+# Registers                        : 2
+ 1-bit register                    : 1
+ 26-bit register                   : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <leitura_digitais_2_niveis> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block leitura_digitais_2_niveis, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      43  out of   4656     0%  
+ Number of Slice Flip Flops:            31  out of   9312     0%  
+ Number of 4 input LUTs:                78  out of   9312     0%  
+ Number of bonded IOBs:                  7  out of    232     3%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 31    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 9.067ns (Maximum Frequency: 110.290MHz)
+   Minimum input arrival time before clock: 5.726ns
+   Maximum output required time after clock: 8.106ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo -nt timestamp -uc
+leitura_digitais_2_niveis.ucf -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc
+leitura_digitais_2_niveis.ngd 
+
+Reading NGO file
+'C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niv
+eis.ngc' ...
+
+Applying constraints in "leitura_digitais_2_niveis.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "leitura_digitais_2_niveis.ngd" ...
+
+Writing NGDBUILD log file "leitura_digitais_2_niveis.bld"...
+
+NGDBUILD done.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo -nt timestamp -uc
+leitura_digitais_2_niveis.ucf -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc
+leitura_digitais_2_niveis.ngd 
+
+Reading NGO file
+'C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niv
+eis.ngc' ...
+
+Applying constraints in "leitura_digitais_2_niveis.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "leitura_digitais_2_niveis.ngd" ...
+
+Writing NGDBUILD log file "leitura_digitais_2_niveis.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          31 out of   9,312    1%
+  Number of 4 input LUTs:              54 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                           44 out of   4,656    1%
+    Number of Slices containing only related logic:      44 out of      44  100%
+    Number of Slices containing unrelated logic:          0 out of      44    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             79 out of   9,312    1%
+  Number used as logic:                 54
+  Number used as a route-thru:          25
+  Number of bonded IOBs:                7 out of     232    3%
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  728
+Additional JTAG gate count for IOBs:  336
+Peak Memory Usage:  191 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "leitura_digitais_2_niveis_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: leitura_digitais_2_niveis.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "leitura_digitais_2_niveis" is an NCD, version 3.1, device xc3s500e, package
+fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            3 out of 232     1%
+      Number of LOCed IBUFs            3 out of 3     100%
+
+   Number of External IOBs             4 out of 176     2%
+      Number of LOCed IOBs             4 out of 4     100%
+
+   Number of Slices                   44 out of 4656    1%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 4 secs 
+Finished initial Timing Analysis.  REAL time: 4 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:989747) REAL time: 4 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 4 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 7 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 7 secs 
+
+Phase 5.8
+...
+..
+Phase 5.8 (Checksum:994728) REAL time: 7 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 7 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 7 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 7 secs 
+
+Writing design to file leitura_digitais_2_niveis.ncd
+
+
+Total REAL time to Placer completion: 7 secs 
+Total CPU time to Placer completion: 7 secs 
+
+Starting Router
+
+Phase 1: 228 unrouted;       REAL time: 8 secs 
+
+Phase 2: 209 unrouted;       REAL time: 8 secs 
+
+Phase 3: 34 unrouted;       REAL time: 8 secs 
+
+Phase 4: 34 unrouted; (0)      REAL time: 8 secs 
+
+Phase 5: 34 unrouted; (0)      REAL time: 8 secs 
+
+Phase 6: 34 unrouted; (0)      REAL time: 8 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 8 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 8 secs 
+
+
+Total REAL time to Router completion: 8 secs 
+Total CPU time to Router completion: 8 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP | BUFGMUX_X2Y11| No   |   18 |  0.020     |  1.070      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 8.832ns    | 4    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 9 secs 
+Total CPU time to PAR completion: 9 secs 
+
+Peak Memory Usage:  168 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file leitura_digitais_2_niveis.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "leitura_digitais_2_niveis" is an NCD, version 3.1, device xc3s500e, package
+fg320, speed -4
+
+Analysis completed Wed Mar 27 20:07:34 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 4 secs 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax for Simulation".
+
+Compiling vhdl file "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" in Library isim_temp.
+Entity <leitura_digitais_2_niveis> compiled.
+ERROR:HDLParsers:800 - "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" Line 42. Type of estado is incompatible with type of 0.
+Parsing "leitura_digitais_2_niveis_stx.prj": 0.02
+ERROR: vhpcomp failed
+Process "Check Syntax for Simulation" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax for Simulation".
+
+Compiling vhdl file "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" in Library isim_temp.
+Entity <leitura_digitais_2_niveis> compiled.
+Entity <leitura_digitais_2_niveis> (Architecture <behavioral>) compiled.
+Parsing "leitura_digitais_2_niveis_stx.prj": 0.03
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" in Library work.
+Entity <leitura_digitais_2_niveis> compiled.
+Entity <leitura_digitais_2_niveis> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <leitura_digitais_2_niveis> (Architecture <behavioral>).
+Entity <leitura_digitais_2_niveis> analyzed. Unit <leitura_digitais_2_niveis> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <leitura_digitais_2_niveis>.
+    Related source file is "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd".
+    Found 26-bit adder for signal <$n0007> created at line 74.
+    Found 4-bit up counter for signal <count>.
+    Found 1-bit register for signal <estado>.
+    Found 26-bit register for signal <tempo>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  27 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <leitura_digitais_2_niveis> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 26-bit adder                      : 1
+# Counters                         : 1
+ 4-bit up counter                  : 1
+# Registers                        : 2
+ 1-bit register                    : 1
+ 26-bit register                   : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <leitura_digitais_2_niveis> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block leitura_digitais_2_niveis, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      43  out of   4656     0%  
+ Number of Slice Flip Flops:            31  out of   9312     0%  
+ Number of 4 input LUTs:                78  out of   9312     0%  
+ Number of bonded IOBs:                  8  out of    232     3%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 31    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 9.067ns (Maximum Frequency: 110.290MHz)
+   Minimum input arrival time before clock: 5.726ns
+   Maximum output required time after clock: 8.268ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo -nt timestamp -uc
+leitura_digitais_2_niveis.ucf -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc
+leitura_digitais_2_niveis.ngd 
+
+Reading NGO file
+'C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niv
+eis.ngc' ...
+
+Applying constraints in "leitura_digitais_2_niveis.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "leitura_digitais_2_niveis.ngd" ...
+
+Writing NGDBUILD log file "leitura_digitais_2_niveis.bld"...
+
+NGDBUILD done.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          31 out of   9,312    1%
+  Number of 4 input LUTs:              54 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                           44 out of   4,656    1%
+    Number of Slices containing only related logic:      44 out of      44  100%
+    Number of Slices containing unrelated logic:          0 out of      44    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             79 out of   9,312    1%
+  Number used as logic:                 54
+  Number used as a route-thru:          25
+  Number of bonded IOBs:                8 out of     232    3%
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  728
+Additional JTAG gate count for IOBs:  384
+Peak Memory Usage:  191 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "leitura_digitais_2_niveis_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: leitura_digitais_2_niveis.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "leitura_digitais_2_niveis" is an NCD, version 3.1, device xc3s500e, package
+fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            3 out of 232     1%
+      Number of LOCed IBUFs            3 out of 3     100%
+
+   Number of External IOBs             5 out of 176     2%
+      Number of LOCed IOBs             4 out of 5      80%
+
+   Number of Slices                   44 out of 4656    1%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:98974c) REAL time: 2 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 3 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 3 secs 
+
+Phase 5.3
+Phase 5.3 (Checksum:2faf07b) REAL time: 3 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 3 secs 
+
+Phase 7.8
+......
+..
+Phase 7.8 (Checksum:99bf5e) REAL time: 3 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 3 secs 
+
+Phase 9.18
+Phase 9.18 (Checksum:55d4a77) REAL time: 3 secs 
+
+Phase 10.5
+Phase 10.5 (Checksum:5f5e0f6) REAL time: 3 secs 
+
+Writing design to file leitura_digitais_2_niveis.ncd
+
+
+Total REAL time to Placer completion: 3 secs 
+Total CPU time to Placer completion: 3 secs 
+
+Starting Router
+
+Phase 1: 229 unrouted;       REAL time: 4 secs 
+
+Phase 2: 210 unrouted;       REAL time: 4 secs 
+
+Phase 3: 22 unrouted;       REAL time: 4 secs 
+
+Phase 4: 22 unrouted; (0)      REAL time: 4 secs 
+
+Phase 5: 22 unrouted; (0)      REAL time: 4 secs 
+
+Phase 6: 22 unrouted; (0)      REAL time: 4 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 4 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 4 secs 
+
+
+Total REAL time to Router completion: 4 secs 
+Total CPU time to Router completion: 4 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP | BUFGMUX_X2Y11| No   |   18 |  0.020     |  1.070      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 8.107ns    | 5    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 5 secs 
+
+Peak Memory Usage:  168 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file leitura_digitais_2_niveis.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "leitura_digitais_2_niveis" is an NCD, version 3.1, device xc3s500e, package
+fg320, speed -4
+
+Analysis completed Wed Mar 27 20:27:37 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo -nt timestamp -uc
+leitura_digitais_2_niveis.ucf -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc
+leitura_digitais_2_niveis.ngd 
+
+Reading NGO file
+'C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niv
+eis.ngc' ...
+
+Applying constraints in "leitura_digitais_2_niveis.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "leitura_digitais_2_niveis.ngd" ...
+
+Writing NGDBUILD log file "leitura_digitais_2_niveis.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          31 out of   9,312    1%
+  Number of 4 input LUTs:              54 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                           44 out of   4,656    1%
+    Number of Slices containing only related logic:      44 out of      44  100%
+    Number of Slices containing unrelated logic:          0 out of      44    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             79 out of   9,312    1%
+  Number used as logic:                 54
+  Number used as a route-thru:          25
+  Number of bonded IOBs:                8 out of     232    3%
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  728
+Additional JTAG gate count for IOBs:  384
+Peak Memory Usage:  190 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "leitura_digitais_2_niveis_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: leitura_digitais_2_niveis.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "leitura_digitais_2_niveis" is an NCD, version 3.1, device xc3s500e, package
+fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            3 out of 232     1%
+      Number of LOCed IBUFs            3 out of 3     100%
+
+   Number of External IOBs             5 out of 176     2%
+      Number of LOCed IOBs             5 out of 5     100%
+
+   Number of Slices                   44 out of 4656    1%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:98974c) REAL time: 2 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 3 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 3 secs 
+
+Phase 5.8
+.
+..
+Phase 5.8 (Checksum:9936c0) REAL time: 3 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 3 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 3 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 3 secs 
+
+Writing design to file leitura_digitais_2_niveis.ncd
+
+
+Total REAL time to Placer completion: 3 secs 
+Total CPU time to Placer completion: 3 secs 
+
+Starting Router
+
+Phase 1: 229 unrouted;       REAL time: 4 secs 
+
+Phase 2: 210 unrouted;       REAL time: 4 secs 
+
+Phase 3: 14 unrouted;       REAL time: 4 secs 
+
+Phase 4: 14 unrouted; (0)      REAL time: 4 secs 
+
+Phase 5: 14 unrouted; (0)      REAL time: 4 secs 
+
+Phase 6: 14 unrouted; (0)      REAL time: 4 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 4 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 4 secs 
+
+
+Total REAL time to Router completion: 4 secs 
+Total CPU time to Router completion: 4 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP | BUFGMUX_X2Y11| No   |   18 |  0.001     |  1.051      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 9.388ns    | 4    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 4 secs 
+Total CPU time to PAR completion: 4 secs 
+
+Peak Memory Usage:  168 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file leitura_digitais_2_niveis.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "leitura_digitais_2_niveis" is an NCD, version 3.1, device xc3s500e, package
+fg320, speed -4
+
+Analysis completed Wed Mar 27 20:30:12 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax for Simulation".
+
+Compiling vhdl file "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" in Library isim_temp.
+Entity <leitura_digitais_2_niveis> compiled.
+Entity <leitura_digitais_2_niveis> (Architecture <behavioral>) compiled.
+Parsing "leitura_digitais_2_niveis_stx.prj": 0.02
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd" in Library work.
+Entity <leitura_digitais_2_niveis> compiled.
+Entity <leitura_digitais_2_niveis> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <leitura_digitais_2_niveis> (Architecture <behavioral>).
+Entity <leitura_digitais_2_niveis> analyzed. Unit <leitura_digitais_2_niveis> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <leitura_digitais_2_niveis>.
+    Related source file is "C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd".
+    Found 19-bit adder for signal <$n0006> created at line 61.
+    Found 4-bit up counter for signal <count>.
+    Found 1-bit register for signal <estado>.
+    Found 19-bit register for signal <tempo>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <leitura_digitais_2_niveis> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 19-bit adder                      : 1
+# Counters                         : 1
+ 4-bit up counter                  : 1
+# Registers                        : 2
+ 1-bit register                    : 1
+ 19-bit register                   : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <leitura_digitais_2_niveis> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block leitura_digitais_2_niveis, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      29  out of   4656     0%  
+ Number of Slice Flip Flops:            24  out of   9312     0%  
+ Number of 4 input LUTs:                52  out of   9312     0%  
+ Number of bonded IOBs:                  8  out of    232     3%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 24    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.432ns (Maximum Frequency: 134.553MHz)
+   Minimum input arrival time before clock: 6.254ns
+   Maximum output required time after clock: 8.886ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo -nt timestamp -uc
+leitura_digitais_2_niveis.ucf -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc
+leitura_digitais_2_niveis.ngd 
+
+Reading NGO file
+'C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niv
+eis.ngc' ...
+
+Applying constraints in "leitura_digitais_2_niveis.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "leitura_digitais_2_niveis.ngd" ...
+
+Writing NGDBUILD log file "leitura_digitais_2_niveis.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          24 out of   9,312    1%
+  Number of 4 input LUTs:              35 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                           31 out of   4,656    1%
+    Number of Slices containing only related logic:      31 out of      31  100%
+    Number of Slices containing unrelated logic:          0 out of      31    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             53 out of   9,312    1%
+  Number used as logic:                 35
+  Number used as a route-thru:          18
+  Number of bonded IOBs:                8 out of     232    3%
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  513
+Additional JTAG gate count for IOBs:  384
+Peak Memory Usage:  190 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "leitura_digitais_2_niveis_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: leitura_digitais_2_niveis.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "leitura_digitais_2_niveis" is an NCD, version 3.1, device xc3s500e, package
+fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            3 out of 232     1%
+      Number of LOCed IBUFs            3 out of 3     100%
+
+   Number of External IOBs             5 out of 176     2%
+      Number of LOCed IOBs             5 out of 5     100%
+
+   Number of Slices                   31 out of 4656    1%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:98971a) REAL time: 2 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 3 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 3 secs 
+
+Phase 5.8
+...
+...
+Phase 5.8 (Checksum:996a9b) REAL time: 3 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 3 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 3 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 3 secs 
+
+Writing design to file leitura_digitais_2_niveis.ncd
+
+
+Total REAL time to Placer completion: 3 secs 
+Total CPU time to Placer completion: 3 secs 
+
+Starting Router
+
+Phase 1: 192 unrouted;       REAL time: 4 secs 
+
+Phase 2: 178 unrouted;       REAL time: 4 secs 
+
+Phase 3: 11 unrouted;       REAL time: 4 secs 
+
+Phase 4: 11 unrouted; (0)      REAL time: 4 secs 
+
+Phase 5: 11 unrouted; (0)      REAL time: 4 secs 
+
+Phase 6: 11 unrouted; (0)      REAL time: 4 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 4 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 4 secs 
+
+
+Total REAL time to Router completion: 4 secs 
+Total CPU time to Router completion: 4 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP | BUFGMUX_X2Y11| No   |   13 |  0.020     |  1.070      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 8.677ns    | 3    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 4 secs 
+
+Peak Memory Usage:  167 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file leitura_digitais_2_niveis.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "leitura_digitais_2_niveis" is an NCD, version 3.1, device xc3s500e, package
+fg320, speed -4
+
+Analysis completed Wed Mar 27 20:32:42 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+

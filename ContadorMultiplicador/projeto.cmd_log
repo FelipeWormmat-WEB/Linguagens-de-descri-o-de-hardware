@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn __projnav/projeto.xst -ofn projeto.syr
+ngdbuild -intstyle ise -dd "c:\users\eg\onedrive\faculdade\s13\linguagens e descrição de hardware\aula 04\p2 - multiplexador/_ngo" -nt timestamp -i  -p xc3s500e-fg320-4 projeto.ngc projeto.ngd
+xst -intstyle ise -ifn __projnav/projeto.xst -ofn projeto.syr
+ngdbuild -intstyle ise -dd "c:\users\eg\onedrive\faculdade\s13\linguagens e descrição de hardware\aula 04\p2 - multiplexador/_ngo" -nt timestamp -uc projeto.ucf  -p xc3s500e-fg320-4 projeto.ngc projeto.ngd
+xst -intstyle ise -ifn __projnav/projeto.xst -ofn projeto.syr
+ngdbuild -intstyle ise -dd "c:\users\eg\onedrive\faculdade\s13\linguagens e descrição de hardware\aula 04\p2 - multiplexador/_ngo" -nt timestamp -uc projeto.ucf  -p xc3s500e-fg320-4 projeto.ngc projeto.ngd
+xst -intstyle ise -ifn __projnav/projeto.xst -ofn projeto.syr
+ngdbuild -intstyle ise -dd "c:\users\eg\onedrive\faculdade\s13\linguagens e descrição de hardware\aula 04\p2 - multiplexador/_ngo" -nt timestamp -uc projeto.ucf  -p xc3s500e-fg320-4 projeto.ngc projeto.ngd
+xst -intstyle ise -ifn __projnav/projeto.xst -ofn projeto.syr
+ngdbuild -intstyle ise -dd "c:\users\felipe\desktop\p2 - multiplexador/_ngo" -nt timestamp -uc projeto.ucf  -p xc3s500e-fg320-4 projeto.ngc projeto.ngd
+ngdbuild -intstyle ise -dd "c:\users\felipe\desktop\p2 - multiplexador/_ngo" -nt timestamp -uc projeto.ucf  -p xc3s500e-fg320-4 projeto.ngc projeto.ngd
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o projeto_map.ncd projeto.ngd projeto.pcf
+par -w -intstyle ise -ol std -t 1 projeto_map.ncd projeto.ncd projeto.pcf
+trce -intstyle ise -e 3 -l 3 -s 4 -xml projeto projeto.ncd -o projeto.twr projeto.pcf
+bitgen -intstyle ise -f projeto.ut projeto.ncd

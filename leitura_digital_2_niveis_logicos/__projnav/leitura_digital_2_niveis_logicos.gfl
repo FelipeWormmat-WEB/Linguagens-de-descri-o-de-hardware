@@ -1,0 +1,657 @@
+# xst flow : RunXST
+leitura_digitais_2_niveis_summary.html
+# ISim flow : Creating project file
+leitura_digitais_2_niveis_stx.prj
+leitura_digitais_2_niveis.isim_stx_prj
+work
+# ISim : Check Syntax for Simulation
+*.auxlib
+isim
+isim_temp
+xilinxsim.ini
+leitura_digitais_2_niveis.isim_stx_sim
+# ISim flow : Creating project file
+leitura_digitais_2_niveis_stx.prj
+leitura_digitais_2_niveis.isim_stx_prj
+work
+# ISim : Check Syntax for Simulation
+*.auxlib
+isim
+isim_temp
+xilinxsim.ini
+leitura_digitais_2_niveis.isim_stx_sim
+# ISim flow : Creating project file
+leitura_digitais_2_niveis_stx.prj
+leitura_digitais_2_niveis.isim_stx_prj
+work
+# ISim : Check Syntax for Simulation
+*.auxlib
+isim
+isim_temp
+xilinxsim.ini
+leitura_digitais_2_niveis.isim_stx_sim
+# XST (Creating Lso File) : 
+leitura_digitais_2_niveis.lso
+# xst flow : RunXST
+leitura_digitais_2_niveis_summary.html
+# xst flow : RunXST
+leitura_digitais_2_niveis.syr
+leitura_digitais_2_niveis.prj
+leitura_digitais_2_niveis.sprj
+leitura_digitais_2_niveis.ana
+leitura_digitais_2_niveis.stx
+leitura_digitais_2_niveis.cmd_log
+leitura_digitais_2_niveis.ngc
+leitura_digitais_2_niveis.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo"
+leitura_digitais_2_niveis.ngd
+leitura_digitais_2_niveis_ngdbuild.nav
+leitura_digitais_2_niveis.bld
+leitura_digitais_2_niveis.ucf.untf
+leitura_digitais_2_niveis.cmd_log
+# Create Area Constraints
+Xilinx::Dpm::dpm_flowUtilsEndScriptMarker
+0
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo"
+leitura_digitais_2_niveis.ngd
+leitura_digitais_2_niveis_ngdbuild.nav
+leitura_digitais_2_niveis.bld
+leitura_digitais_2_niveis.ucf.untf
+leitura_digitais_2_niveis.cmd_log
+# Create Area Constraints
+Xilinx::Dpm::dpm_flowUtilsEndScriptMarker
+0
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo"
+leitura_digitais_2_niveis.ngd
+leitura_digitais_2_niveis_ngdbuild.nav
+leitura_digitais_2_niveis.bld
+leitura_digitais_2_niveis.ucf.untf
+leitura_digitais_2_niveis.cmd_log
+# Implementation : Map
+leitura_digitais_2_niveis_summary.html
+# Implementation : Map
+leitura_digitais_2_niveis_map.ncd
+leitura_digitais_2_niveis.ngm
+leitura_digitais_2_niveis.pcf
+leitura_digitais_2_niveis.nc1
+leitura_digitais_2_niveis.mrp
+leitura_digitais_2_niveis_map.mrp
+leitura_digitais_2_niveis.mdf
+leitura_digitais_2_niveis.cmd_log
+MAP_NO_GUIDE_FILE_CPF "leitura_digitais_2_niveis"
+leitura_digitais_2_niveis_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+leitura_digitais_2_niveis.twr
+leitura_digitais_2_niveis.twx
+leitura_digitais_2_niveis.tsi
+leitura_digitais_2_niveis.cmd_log
+# Implementation : Place & Route
+leitura_digitais_2_niveis_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+leitura_digitais_2_niveis.ncd
+leitura_digitais_2_niveis.par
+leitura_digitais_2_niveis.pad
+leitura_digitais_2_niveis_pad.txt
+leitura_digitais_2_niveis_pad.csv
+leitura_digitais_2_niveis.pad_txt
+leitura_digitais_2_niveis.dly
+reportgen.log
+leitura_digitais_2_niveis.xpi
+leitura_digitais_2_niveis.grf
+leitura_digitais_2_niveis.itr
+leitura_digitais_2_niveis_last_par.ncd
+leitura_digitais_2_niveis.placed_ncd_tracker
+leitura_digitais_2_niveis.routed_ncd_tracker
+leitura_digitais_2_niveis.cmd_log
+PAR_NO_GUIDE_FILE_CPF "leitura_digitais_2_niveis"
+# Generate Programming File
+__projnav/leitura_digitais_2_niveis_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+leitura_digitais_2_niveis.ut
+# Generate Programming File
+leitura_digitais_2_niveis.bgn
+leitura_digitais_2_niveis.rbt
+leitura_digitais_2_niveis.ll
+leitura_digitais_2_niveis.msk
+leitura_digitais_2_niveis.drc
+leitura_digitais_2_niveis.nky
+leitura_digitais_2_niveis.bit
+leitura_digitais_2_niveis.bin
+leitura_digitais_2_niveis.isc
+leitura_digitais_2_niveis.cmd_log
+# Assign Package Pins (Design Module)
+if
+ $IsCopy 
+
+            Xilinx::Dpm::dpm_flowUtilsFilesToDelete "DID_File"  "$HDLModule"
+         
+# xst flow : RunXST
+leitura_digitais_2_niveis_summary.html
+# XST (Creating Lso File) : 
+leitura_digitais_2_niveis.lso
+# xst flow : RunXST
+leitura_digitais_2_niveis_summary.html
+# xst flow : RunXST
+leitura_digitais_2_niveis.syr
+leitura_digitais_2_niveis.prj
+leitura_digitais_2_niveis.sprj
+leitura_digitais_2_niveis.ana
+leitura_digitais_2_niveis.stx
+leitura_digitais_2_niveis.cmd_log
+leitura_digitais_2_niveis.ngc
+leitura_digitais_2_niveis.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo"
+leitura_digitais_2_niveis.ngd
+leitura_digitais_2_niveis_ngdbuild.nav
+leitura_digitais_2_niveis.bld
+leitura_digitais_2_niveis.ucf.untf
+leitura_digitais_2_niveis.cmd_log
+# Create Timing Constraints
+# Implementation : Map
+leitura_digitais_2_niveis_summary.html
+# Implementation : Map
+leitura_digitais_2_niveis_map.ncd
+leitura_digitais_2_niveis.ngm
+leitura_digitais_2_niveis.pcf
+leitura_digitais_2_niveis.nc1
+leitura_digitais_2_niveis.mrp
+leitura_digitais_2_niveis_map.mrp
+leitura_digitais_2_niveis.mdf
+leitura_digitais_2_niveis.cmd_log
+MAP_NO_GUIDE_FILE_CPF "leitura_digitais_2_niveis"
+leitura_digitais_2_niveis_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+leitura_digitais_2_niveis.twr
+leitura_digitais_2_niveis.twx
+leitura_digitais_2_niveis.tsi
+leitura_digitais_2_niveis.cmd_log
+# Implementation : Place & Route
+leitura_digitais_2_niveis_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+leitura_digitais_2_niveis.ncd
+leitura_digitais_2_niveis.par
+leitura_digitais_2_niveis.pad
+leitura_digitais_2_niveis_pad.txt
+leitura_digitais_2_niveis_pad.csv
+leitura_digitais_2_niveis.pad_txt
+leitura_digitais_2_niveis.dly
+reportgen.log
+leitura_digitais_2_niveis.xpi
+leitura_digitais_2_niveis.grf
+leitura_digitais_2_niveis.itr
+leitura_digitais_2_niveis_last_par.ncd
+leitura_digitais_2_niveis.placed_ncd_tracker
+leitura_digitais_2_niveis.routed_ncd_tracker
+leitura_digitais_2_niveis.cmd_log
+PAR_NO_GUIDE_FILE_CPF "leitura_digitais_2_niveis"
+# Generate Programming File
+__projnav/leitura_digitais_2_niveis_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+leitura_digitais_2_niveis.ut
+# Generate Programming File
+leitura_digitais_2_niveis.bgn
+leitura_digitais_2_niveis.rbt
+leitura_digitais_2_niveis.ll
+leitura_digitais_2_niveis.msk
+leitura_digitais_2_niveis.drc
+leitura_digitais_2_niveis.nky
+leitura_digitais_2_niveis.bit
+leitura_digitais_2_niveis.bin
+leitura_digitais_2_niveis.isc
+leitura_digitais_2_niveis.cmd_log
+# ISim flow : Creating project file
+leitura_digitais_2_niveis_lau.prj
+leitura_digitais_2_niveis.isim_lau_prj
+work
+# ISim : Launch Xilinx ISE Simulator
+ISIM_FILE_CPF
+leitura_digitais_2_niveis_lau.prj
+leitura_digitais_2_niveis_isim_lau.exe
+leitura_digitais_2_niveis.isim_lau_exe
+isim
+*.auxlib
+isim.tmp_save
+xilinxsim.ini
+# ISim flow : Creating project file
+leitura_digitais_2_niveis_stx.prj
+leitura_digitais_2_niveis.isim_stx_prj
+work
+# ISim : Check Syntax for Simulation
+*.auxlib
+isim
+isim_temp
+xilinxsim.ini
+leitura_digitais_2_niveis.isim_stx_sim
+# XST (Creating Lso File) : 
+leitura_digitais_2_niveis.lso
+# xst flow : RunXST
+leitura_digitais_2_niveis_summary.html
+# xst flow : RunXST
+leitura_digitais_2_niveis.syr
+leitura_digitais_2_niveis.prj
+leitura_digitais_2_niveis.sprj
+leitura_digitais_2_niveis.ana
+leitura_digitais_2_niveis.stx
+leitura_digitais_2_niveis.cmd_log
+leitura_digitais_2_niveis.ngc
+leitura_digitais_2_niveis.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo"
+leitura_digitais_2_niveis.ngd
+leitura_digitais_2_niveis_ngdbuild.nav
+leitura_digitais_2_niveis.bld
+leitura_digitais_2_niveis.ucf.untf
+leitura_digitais_2_niveis.cmd_log
+# Implementation : Map
+leitura_digitais_2_niveis_summary.html
+# Implementation : Map
+leitura_digitais_2_niveis_map.ncd
+leitura_digitais_2_niveis.ngm
+leitura_digitais_2_niveis.pcf
+leitura_digitais_2_niveis.nc1
+leitura_digitais_2_niveis.mrp
+leitura_digitais_2_niveis_map.mrp
+leitura_digitais_2_niveis.mdf
+leitura_digitais_2_niveis.cmd_log
+MAP_NO_GUIDE_FILE_CPF "leitura_digitais_2_niveis"
+leitura_digitais_2_niveis_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+leitura_digitais_2_niveis.twr
+leitura_digitais_2_niveis.twx
+leitura_digitais_2_niveis.tsi
+leitura_digitais_2_niveis.cmd_log
+# Implementation : Place & Route
+leitura_digitais_2_niveis_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+leitura_digitais_2_niveis.ncd
+leitura_digitais_2_niveis.par
+leitura_digitais_2_niveis.pad
+leitura_digitais_2_niveis_pad.txt
+leitura_digitais_2_niveis_pad.csv
+leitura_digitais_2_niveis.pad_txt
+leitura_digitais_2_niveis.dly
+reportgen.log
+leitura_digitais_2_niveis.xpi
+leitura_digitais_2_niveis.grf
+leitura_digitais_2_niveis.itr
+leitura_digitais_2_niveis_last_par.ncd
+leitura_digitais_2_niveis.placed_ncd_tracker
+leitura_digitais_2_niveis.routed_ncd_tracker
+leitura_digitais_2_niveis.cmd_log
+PAR_NO_GUIDE_FILE_CPF "leitura_digitais_2_niveis"
+# ISim flow : Creating project file
+leitura_digitais_2_niveis_stx.prj
+leitura_digitais_2_niveis.isim_stx_prj
+work
+# ISim : Check Syntax for Simulation
+*.auxlib
+isim
+isim_temp
+xilinxsim.ini
+leitura_digitais_2_niveis.isim_stx_sim
+# XST (Creating Lso File) : 
+leitura_digitais_2_niveis.lso
+# xst flow : RunXST
+leitura_digitais_2_niveis_summary.html
+# xst flow : RunXST
+leitura_digitais_2_niveis.syr
+leitura_digitais_2_niveis.prj
+leitura_digitais_2_niveis.sprj
+leitura_digitais_2_niveis.ana
+leitura_digitais_2_niveis.stx
+leitura_digitais_2_niveis.cmd_log
+leitura_digitais_2_niveis.ngc
+leitura_digitais_2_niveis.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo"
+leitura_digitais_2_niveis.ngd
+leitura_digitais_2_niveis_ngdbuild.nav
+leitura_digitais_2_niveis.bld
+leitura_digitais_2_niveis.ucf.untf
+leitura_digitais_2_niveis.cmd_log
+# Create Timing Constraints
+# Assign Package Pins (Design Module)
+if
+ $IsCopy 
+
+            Xilinx::Dpm::dpm_flowUtilsFilesToDelete "DID_File"  "$HDLModule"
+         
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo"
+leitura_digitais_2_niveis.ngd
+leitura_digitais_2_niveis_ngdbuild.nav
+leitura_digitais_2_niveis.bld
+leitura_digitais_2_niveis.ucf.untf
+leitura_digitais_2_niveis.cmd_log
+# Implementation : Map
+leitura_digitais_2_niveis_summary.html
+# Implementation : Map
+leitura_digitais_2_niveis_map.ncd
+leitura_digitais_2_niveis.ngm
+leitura_digitais_2_niveis.pcf
+leitura_digitais_2_niveis.nc1
+leitura_digitais_2_niveis.mrp
+leitura_digitais_2_niveis_map.mrp
+leitura_digitais_2_niveis.mdf
+leitura_digitais_2_niveis.cmd_log
+MAP_NO_GUIDE_FILE_CPF "leitura_digitais_2_niveis"
+leitura_digitais_2_niveis_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+leitura_digitais_2_niveis.twr
+leitura_digitais_2_niveis.twx
+leitura_digitais_2_niveis.tsi
+leitura_digitais_2_niveis.cmd_log
+# Implementation : Place & Route
+leitura_digitais_2_niveis_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+leitura_digitais_2_niveis.ncd
+leitura_digitais_2_niveis.par
+leitura_digitais_2_niveis.pad
+leitura_digitais_2_niveis_pad.txt
+leitura_digitais_2_niveis_pad.csv
+leitura_digitais_2_niveis.pad_txt
+leitura_digitais_2_niveis.dly
+reportgen.log
+leitura_digitais_2_niveis.xpi
+leitura_digitais_2_niveis.grf
+leitura_digitais_2_niveis.itr
+leitura_digitais_2_niveis_last_par.ncd
+leitura_digitais_2_niveis.placed_ncd_tracker
+leitura_digitais_2_niveis.routed_ncd_tracker
+leitura_digitais_2_niveis.cmd_log
+PAR_NO_GUIDE_FILE_CPF "leitura_digitais_2_niveis"
+# Generate Programming File
+__projnav/leitura_digitais_2_niveis_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+leitura_digitais_2_niveis.ut
+# Generate Programming File
+leitura_digitais_2_niveis.bgn
+leitura_digitais_2_niveis.rbt
+leitura_digitais_2_niveis.ll
+leitura_digitais_2_niveis.msk
+leitura_digitais_2_niveis.drc
+leitura_digitais_2_niveis.nky
+leitura_digitais_2_niveis.bit
+leitura_digitais_2_niveis.bin
+leitura_digitais_2_niveis.isc
+leitura_digitais_2_niveis.cmd_log
+# Assign Package Pins (Design Module)
+if
+ $IsCopy 
+
+            Xilinx::Dpm::dpm_flowUtilsFilesToDelete "DID_File"  "$HDLModule"
+         
+# ISim flow : Creating project file
+leitura_digitais_2_niveis_stx.prj
+leitura_digitais_2_niveis.isim_stx_prj
+work
+# ISim : Check Syntax for Simulation
+*.auxlib
+isim
+isim_temp
+xilinxsim.ini
+leitura_digitais_2_niveis.isim_stx_sim
+# ISim flow : Creating project file
+leitura_digitais_2_niveis_stx.prj
+leitura_digitais_2_niveis.isim_stx_prj
+work
+# ISim : Check Syntax for Simulation
+*.auxlib
+isim
+isim_temp
+xilinxsim.ini
+leitura_digitais_2_niveis.isim_stx_sim
+# XST (Creating Lso File) : 
+leitura_digitais_2_niveis.lso
+# xst flow : RunXST
+leitura_digitais_2_niveis_summary.html
+# xst flow : RunXST
+leitura_digitais_2_niveis.syr
+leitura_digitais_2_niveis.prj
+leitura_digitais_2_niveis.sprj
+leitura_digitais_2_niveis.ana
+leitura_digitais_2_niveis.stx
+leitura_digitais_2_niveis.cmd_log
+leitura_digitais_2_niveis.ngc
+leitura_digitais_2_niveis.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo"
+leitura_digitais_2_niveis.ngd
+leitura_digitais_2_niveis_ngdbuild.nav
+leitura_digitais_2_niveis.bld
+leitura_digitais_2_niveis.ucf.untf
+leitura_digitais_2_niveis.cmd_log
+# Create Timing Constraints
+# Implementation : Map
+leitura_digitais_2_niveis_summary.html
+# Implementation : Map
+leitura_digitais_2_niveis_map.ncd
+leitura_digitais_2_niveis.ngm
+leitura_digitais_2_niveis.pcf
+leitura_digitais_2_niveis.nc1
+leitura_digitais_2_niveis.mrp
+leitura_digitais_2_niveis_map.mrp
+leitura_digitais_2_niveis.mdf
+leitura_digitais_2_niveis.cmd_log
+MAP_NO_GUIDE_FILE_CPF "leitura_digitais_2_niveis"
+leitura_digitais_2_niveis_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+leitura_digitais_2_niveis.twr
+leitura_digitais_2_niveis.twx
+leitura_digitais_2_niveis.tsi
+leitura_digitais_2_niveis.cmd_log
+# Implementation : Place & Route
+leitura_digitais_2_niveis_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+leitura_digitais_2_niveis.ncd
+leitura_digitais_2_niveis.par
+leitura_digitais_2_niveis.pad
+leitura_digitais_2_niveis_pad.txt
+leitura_digitais_2_niveis_pad.csv
+leitura_digitais_2_niveis.pad_txt
+leitura_digitais_2_niveis.dly
+reportgen.log
+leitura_digitais_2_niveis.xpi
+leitura_digitais_2_niveis.grf
+leitura_digitais_2_niveis.itr
+leitura_digitais_2_niveis_last_par.ncd
+leitura_digitais_2_niveis.placed_ncd_tracker
+leitura_digitais_2_niveis.routed_ncd_tracker
+leitura_digitais_2_niveis.cmd_log
+PAR_NO_GUIDE_FILE_CPF "leitura_digitais_2_niveis"
+# Generate Programming File
+__projnav/leitura_digitais_2_niveis_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+leitura_digitais_2_niveis.ut
+# Generate Programming File
+leitura_digitais_2_niveis.bgn
+leitura_digitais_2_niveis.rbt
+leitura_digitais_2_niveis.ll
+leitura_digitais_2_niveis.msk
+leitura_digitais_2_niveis.drc
+leitura_digitais_2_niveis.nky
+leitura_digitais_2_niveis.bit
+leitura_digitais_2_niveis.bin
+leitura_digitais_2_niveis.isc
+leitura_digitais_2_niveis.cmd_log
+# Assign Package Pins (Design Module)
+if
+ $IsCopy 
+
+            Xilinx::Dpm::dpm_flowUtilsFilesToDelete "DID_File"  "$HDLModule"
+         
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo"
+leitura_digitais_2_niveis.ngd
+leitura_digitais_2_niveis_ngdbuild.nav
+leitura_digitais_2_niveis.bld
+leitura_digitais_2_niveis.ucf.untf
+leitura_digitais_2_niveis.cmd_log
+# Implementation : Map
+leitura_digitais_2_niveis_summary.html
+# Implementation : Map
+leitura_digitais_2_niveis_map.ncd
+leitura_digitais_2_niveis.ngm
+leitura_digitais_2_niveis.pcf
+leitura_digitais_2_niveis.nc1
+leitura_digitais_2_niveis.mrp
+leitura_digitais_2_niveis_map.mrp
+leitura_digitais_2_niveis.mdf
+leitura_digitais_2_niveis.cmd_log
+MAP_NO_GUIDE_FILE_CPF "leitura_digitais_2_niveis"
+leitura_digitais_2_niveis_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+leitura_digitais_2_niveis.twr
+leitura_digitais_2_niveis.twx
+leitura_digitais_2_niveis.tsi
+leitura_digitais_2_niveis.cmd_log
+# Implementation : Place & Route
+leitura_digitais_2_niveis_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+leitura_digitais_2_niveis.ncd
+leitura_digitais_2_niveis.par
+leitura_digitais_2_niveis.pad
+leitura_digitais_2_niveis_pad.txt
+leitura_digitais_2_niveis_pad.csv
+leitura_digitais_2_niveis.pad_txt
+leitura_digitais_2_niveis.dly
+reportgen.log
+leitura_digitais_2_niveis.xpi
+leitura_digitais_2_niveis.grf
+leitura_digitais_2_niveis.itr
+leitura_digitais_2_niveis_last_par.ncd
+leitura_digitais_2_niveis.placed_ncd_tracker
+leitura_digitais_2_niveis.routed_ncd_tracker
+leitura_digitais_2_niveis.cmd_log
+PAR_NO_GUIDE_FILE_CPF "leitura_digitais_2_niveis"
+# Generate Programming File
+__projnav/leitura_digitais_2_niveis_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+leitura_digitais_2_niveis.ut
+# Generate Programming File
+leitura_digitais_2_niveis.bgn
+leitura_digitais_2_niveis.rbt
+leitura_digitais_2_niveis.ll
+leitura_digitais_2_niveis.msk
+leitura_digitais_2_niveis.drc
+leitura_digitais_2_niveis.nky
+leitura_digitais_2_niveis.bit
+leitura_digitais_2_niveis.bin
+leitura_digitais_2_niveis.isc
+leitura_digitais_2_niveis.cmd_log
+# ISim flow : Creating project file
+leitura_digitais_2_niveis_stx.prj
+leitura_digitais_2_niveis.isim_stx_prj
+work
+# ISim : Check Syntax for Simulation
+*.auxlib
+isim
+isim_temp
+xilinxsim.ini
+leitura_digitais_2_niveis.isim_stx_sim
+# XST (Creating Lso File) : 
+leitura_digitais_2_niveis.lso
+# xst flow : RunXST
+leitura_digitais_2_niveis_summary.html
+# xst flow : RunXST
+leitura_digitais_2_niveis.syr
+leitura_digitais_2_niveis.prj
+leitura_digitais_2_niveis.sprj
+leitura_digitais_2_niveis.ana
+leitura_digitais_2_niveis.stx
+leitura_digitais_2_niveis.cmd_log
+leitura_digitais_2_niveis.ngc
+leitura_digitais_2_niveis.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo"
+leitura_digitais_2_niveis.ngd
+leitura_digitais_2_niveis_ngdbuild.nav
+leitura_digitais_2_niveis.bld
+leitura_digitais_2_niveis.ucf.untf
+leitura_digitais_2_niveis.cmd_log
+# Implementation : Map
+leitura_digitais_2_niveis_summary.html
+# Implementation : Map
+leitura_digitais_2_niveis_map.ncd
+leitura_digitais_2_niveis.ngm
+leitura_digitais_2_niveis.pcf
+leitura_digitais_2_niveis.nc1
+leitura_digitais_2_niveis.mrp
+leitura_digitais_2_niveis_map.mrp
+leitura_digitais_2_niveis.mdf
+leitura_digitais_2_niveis.cmd_log
+MAP_NO_GUIDE_FILE_CPF "leitura_digitais_2_niveis"
+leitura_digitais_2_niveis_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+leitura_digitais_2_niveis.twr
+leitura_digitais_2_niveis.twx
+leitura_digitais_2_niveis.tsi
+leitura_digitais_2_niveis.cmd_log
+# Implementation : Place & Route
+leitura_digitais_2_niveis_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+leitura_digitais_2_niveis.ncd
+leitura_digitais_2_niveis.par
+leitura_digitais_2_niveis.pad
+leitura_digitais_2_niveis_pad.txt
+leitura_digitais_2_niveis_pad.csv
+leitura_digitais_2_niveis.pad_txt
+leitura_digitais_2_niveis.dly
+reportgen.log
+leitura_digitais_2_niveis.xpi
+leitura_digitais_2_niveis.grf
+leitura_digitais_2_niveis.itr
+leitura_digitais_2_niveis_last_par.ncd
+leitura_digitais_2_niveis.placed_ncd_tracker
+leitura_digitais_2_niveis.routed_ncd_tracker
+leitura_digitais_2_niveis.cmd_log
+PAR_NO_GUIDE_FILE_CPF "leitura_digitais_2_niveis"
+# Generate Programming File
+__projnav/leitura_digitais_2_niveis_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+leitura_digitais_2_niveis.ut
+# Generate Programming File
+leitura_digitais_2_niveis.bgn
+leitura_digitais_2_niveis.rbt
+leitura_digitais_2_niveis.ll
+leitura_digitais_2_niveis.msk
+leitura_digitais_2_niveis.drc
+leitura_digitais_2_niveis.nky
+leitura_digitais_2_niveis.bit
+leitura_digitais_2_niveis.bin
+leitura_digitais_2_niveis.isc
+leitura_digitais_2_niveis.cmd_log

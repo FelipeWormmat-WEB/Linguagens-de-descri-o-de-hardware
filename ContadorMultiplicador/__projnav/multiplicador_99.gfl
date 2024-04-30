@@ -1,0 +1,6 @@
+# Assign Package Pins (Design Module)
+if
+ $IsCopy 
+
+            Xilinx::Dpm::dpm_flowUtilsFilesToDelete "DID_File"  "$HDLModule"
+         

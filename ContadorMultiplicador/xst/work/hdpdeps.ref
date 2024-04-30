@@ -1,0 +1,7 @@
+V2 3
+FL "C:/Users/Felipe/Desktop/P2 - Multiplexador/projeto.vhd" 2024/04/03.19:48:08 H.41
+EN work/PROJETO 1712184592         FL "C:/Users/Felipe/Desktop/P2 - Multiplexador/projeto.vhd" \
+      PB ieee/STD_LOGIC_1164 1106404628 PB ieee/STD_LOGIC_ARITH 1106404630 \
+      PB ieee/STD_LOGIC_UNSIGNED 1106404634
+AR work/PROJETO/BEHAVIORAL 1712184593 \
+      FL "C:/Users/Felipe/Desktop/P2 - Multiplexador/projeto.vhd" EN work/PROJETO 1712184592

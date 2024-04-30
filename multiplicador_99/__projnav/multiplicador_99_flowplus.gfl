@@ -1,0 +1,6 @@
+# XST flow : Creating project file
+multiplicador_99.prj
+# xst flow : RunXST
+multiplicador_99.prj
+__projnav/multiplicador_99.xst
+./xst

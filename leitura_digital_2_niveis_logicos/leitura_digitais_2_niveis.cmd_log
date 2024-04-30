@@ -1,0 +1,43 @@
+xst -intstyle ise -ifn __projnav/leitura_digitais_2_niveis.xst -ofn leitura_digitais_2_niveis.syr
+ngdbuild -intstyle ise -dd "c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo" -nt timestamp -uc leitura_digitais_2_niveis.ucf  -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc leitura_digitais_2_niveis.ngd
+ngdbuild -intstyle ise -dd "c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo" -nt timestamp -uc leitura_digitais_2_niveis.ucf  -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc leitura_digitais_2_niveis.ngd
+ngdbuild -intstyle ise -dd "c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo" -nt timestamp -uc leitura_digitais_2_niveis.ucf  -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc leitura_digitais_2_niveis.ngd
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o leitura_digitais_2_niveis_map.ncd leitura_digitais_2_niveis.ngd leitura_digitais_2_niveis.pcf
+par -w -intstyle ise -ol std -t 1 leitura_digitais_2_niveis_map.ncd leitura_digitais_2_niveis.ncd leitura_digitais_2_niveis.pcf
+trce -intstyle ise -e 3 -l 3 -s 4 -xml leitura_digitais_2_niveis leitura_digitais_2_niveis.ncd -o leitura_digitais_2_niveis.twr leitura_digitais_2_niveis.pcf
+bitgen -intstyle ise -f leitura_digitais_2_niveis.ut leitura_digitais_2_niveis.ncd
+xst -intstyle ise -ifn __projnav/leitura_digitais_2_niveis.xst -ofn leitura_digitais_2_niveis.syr
+ngdbuild -intstyle ise -dd "c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo" -nt timestamp -uc leitura_digitais_2_niveis.ucf  -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc leitura_digitais_2_niveis.ngd
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o leitura_digitais_2_niveis_map.ncd leitura_digitais_2_niveis.ngd leitura_digitais_2_niveis.pcf
+par -w -intstyle ise -ol std -t 1 leitura_digitais_2_niveis_map.ncd leitura_digitais_2_niveis.ncd leitura_digitais_2_niveis.pcf
+trce -intstyle ise -e 3 -l 3 -s 4 -xml leitura_digitais_2_niveis leitura_digitais_2_niveis.ncd -o leitura_digitais_2_niveis.twr leitura_digitais_2_niveis.pcf
+bitgen -intstyle ise -f leitura_digitais_2_niveis.ut leitura_digitais_2_niveis.ncd
+xst -intstyle ise -ifn __projnav/leitura_digitais_2_niveis.xst -ofn leitura_digitais_2_niveis.syr
+ngdbuild -intstyle ise -dd "c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo" -nt timestamp -uc leitura_digitais_2_niveis.ucf  -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc leitura_digitais_2_niveis.ngd
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o leitura_digitais_2_niveis_map.ncd leitura_digitais_2_niveis.ngd leitura_digitais_2_niveis.pcf
+par -w -intstyle ise -ol std -t 1 leitura_digitais_2_niveis_map.ncd leitura_digitais_2_niveis.ncd leitura_digitais_2_niveis.pcf
+trce -intstyle ise -e 3 -l 3 -s 4 -xml leitura_digitais_2_niveis leitura_digitais_2_niveis.ncd -o leitura_digitais_2_niveis.twr leitura_digitais_2_niveis.pcf
+xst -intstyle ise -ifn __projnav/leitura_digitais_2_niveis.xst -ofn leitura_digitais_2_niveis.syr
+ngdbuild -intstyle ise -dd "c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo" -nt timestamp -uc leitura_digitais_2_niveis.ucf  -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc leitura_digitais_2_niveis.ngd
+ngdbuild -intstyle ise -dd "c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo" -nt timestamp -uc leitura_digitais_2_niveis.ucf  -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc leitura_digitais_2_niveis.ngd
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o leitura_digitais_2_niveis_map.ncd leitura_digitais_2_niveis.ngd leitura_digitais_2_niveis.pcf
+par -w -intstyle ise -ol std -t 1 leitura_digitais_2_niveis_map.ncd leitura_digitais_2_niveis.ncd leitura_digitais_2_niveis.pcf
+trce -intstyle ise -e 3 -l 3 -s 4 -xml leitura_digitais_2_niveis leitura_digitais_2_niveis.ncd -o leitura_digitais_2_niveis.twr leitura_digitais_2_niveis.pcf
+bitgen -intstyle ise -f leitura_digitais_2_niveis.ut leitura_digitais_2_niveis.ncd
+xst -intstyle ise -ifn __projnav/leitura_digitais_2_niveis.xst -ofn leitura_digitais_2_niveis.syr
+ngdbuild -intstyle ise -dd "c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo" -nt timestamp -uc leitura_digitais_2_niveis.ucf  -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc leitura_digitais_2_niveis.ngd
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o leitura_digitais_2_niveis_map.ncd leitura_digitais_2_niveis.ngd leitura_digitais_2_niveis.pcf
+par -w -intstyle ise -ol std -t 1 leitura_digitais_2_niveis_map.ncd leitura_digitais_2_niveis.ncd leitura_digitais_2_niveis.pcf
+trce -intstyle ise -e 3 -l 3 -s 4 -xml leitura_digitais_2_niveis leitura_digitais_2_niveis.ncd -o leitura_digitais_2_niveis.twr leitura_digitais_2_niveis.pcf
+bitgen -intstyle ise -f leitura_digitais_2_niveis.ut leitura_digitais_2_niveis.ncd
+ngdbuild -intstyle ise -dd "c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo" -nt timestamp -uc leitura_digitais_2_niveis.ucf  -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc leitura_digitais_2_niveis.ngd
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o leitura_digitais_2_niveis_map.ncd leitura_digitais_2_niveis.ngd leitura_digitais_2_niveis.pcf
+par -w -intstyle ise -ol std -t 1 leitura_digitais_2_niveis_map.ncd leitura_digitais_2_niveis.ncd leitura_digitais_2_niveis.pcf
+trce -intstyle ise -e 3 -l 3 -s 4 -xml leitura_digitais_2_niveis leitura_digitais_2_niveis.ncd -o leitura_digitais_2_niveis.twr leitura_digitais_2_niveis.pcf
+bitgen -intstyle ise -f leitura_digitais_2_niveis.ut leitura_digitais_2_niveis.ncd
+xst -intstyle ise -ifn __projnav/leitura_digitais_2_niveis.xst -ofn leitura_digitais_2_niveis.syr
+ngdbuild -intstyle ise -dd "c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo" -nt timestamp -uc leitura_digitais_2_niveis.ucf  -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc leitura_digitais_2_niveis.ngd
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o leitura_digitais_2_niveis_map.ncd leitura_digitais_2_niveis.ngd leitura_digitais_2_niveis.pcf
+par -w -intstyle ise -ol std -t 1 leitura_digitais_2_niveis_map.ncd leitura_digitais_2_niveis.ncd leitura_digitais_2_niveis.pcf
+trce -intstyle ise -e 3 -l 3 -s 4 -xml leitura_digitais_2_niveis leitura_digitais_2_niveis.ncd -o leitura_digitais_2_niveis.twr leitura_digitais_2_niveis.pcf
+bitgen -intstyle ise -f leitura_digitais_2_niveis.ut leitura_digitais_2_niveis.ncd

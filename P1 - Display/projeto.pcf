@@ -1,0 +1,29 @@
+//! **************************************************************************
+// Written by: Map H.41 on Wed Mar 20 20:10:57 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "display<6>" LOCATE = SITE "H14" LEVEL 1;
+COMP "display<7>" LOCATE = SITE "C17" LEVEL 1;
+COMP "unidade" LOCATE = SITE "F15" LEVEL 1;
+COMP "clock" LOCATE = SITE "B8" LEVEL 1;
+COMP "reset" LOCATE = SITE "B18" LEVEL 1;
+COMP "display<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "display<1>" LOCATE = SITE "F18" LEVEL 1;
+COMP "display<2>" LOCATE = SITE "D17" LEVEL 1;
+COMP "display<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "display<4>" LOCATE = SITE "G14" LEVEL 1;
+COMP "display<5>" LOCATE = SITE "J17" LEVEL 1;
+NET "clock_BUFGP/IBUFG" BEL "clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+TIMEGRP clock = BEL "segmento_7" BEL "contador_20" BEL "contador_23" BEL
+        "segmento_0" BEL "segmento_1" BEL "segmento_2" BEL "segmento_3" BEL
+        "segmento_4" BEL "segmento_5" BEL "segmento_6" BEL "uni_3" BEL
+        "contador_19" BEL "contador_17" BEL "uni_0" BEL "uni_1" BEL "uni_2"
+        BEL "contador_21" BEL "contador_18" BEL "contador_16" BEL
+        "contador_24" BEL "contador_25" BEL "contador_22" BEL "contador_0" BEL
+        "contador_1" BEL "contador_2" BEL "contador_3" BEL "contador_4" BEL
+        "contador_5" BEL "contador_6" BEL "contador_7" BEL "contador_8" BEL
+        "contador_9" BEL "contador_10" BEL "contador_11" BEL "contador_12" BEL
+        "contador_13" BEL "contador_14" BEL "contador_15";
+TS_clock = PERIOD TIMEGRP "clock" 10 ns HIGH 50%;
+SCHEMATIC END;

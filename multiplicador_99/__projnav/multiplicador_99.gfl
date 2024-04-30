@@ -1,0 +1,57 @@
+# xst flow : RunXST
+multiplicador_99_summary.html
+# ISim flow : Creating project file
+multiplicador_99_stx.prj
+multiplicador_99.isim_stx_prj
+work
+# ISim : Check Syntax for Simulation
+*.auxlib
+isim
+isim_temp
+xilinxsim.ini
+multiplicador_99.isim_stx_sim
+# XST (Creating Lso File) : 
+multiplicador_99.lso
+# xst flow : RunXST
+multiplicador_99_summary.html
+# xst flow : RunXST
+multiplicador_99.syr
+multiplicador_99.prj
+multiplicador_99.sprj
+multiplicador_99.ana
+multiplicador_99.stx
+multiplicador_99.cmd_log
+multiplicador_99.ngc
+multiplicador_99.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\multiplicador_99/_ngo"
+multiplicador_99.ngd
+multiplicador_99_ngdbuild.nav
+multiplicador_99.bld
+.untf
+multiplicador_99.cmd_log
+# Create Timing Constraints
+# Create Timing Constraints
+# ISim flow : Creating project file
+multiplicador_99_lau.prj
+multiplicador_99.isim_lau_prj
+work
+# ISim : Launch Xilinx ISE Simulator
+ISIM_FILE_CPF
+multiplicador_99_lau.prj
+multiplicador_99_isim_lau.exe
+multiplicador_99.isim_lau_exe
+isim
+*.auxlib
+isim.tmp_save
+xilinxsim.ini
+# Create Timing Constraints
+# Create Timing Constraints
+# Create Timing Constraints
+# xst flow : RunXST
+multiplicador_99_summary.html
+# xst flow : RunXST
+multiplicador_99_summary.html
+# xst flow : RunXST
+multiplicador_99_summary.html

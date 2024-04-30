@@ -1,0 +1,2872 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax for Simulation".
+
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library isim_temp.
+Entity <transmite_ftec> compiled.
+ERROR:HDLParsers:164 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 54. parse error, unexpected LE
+WARNING:HDLParsers:901 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 54. Label indice is ignored.
+ERROR:HDLParsers:3402 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 73. Read symbol =, expecting <= or := 
+ERROR:HDLParsers:3402 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 87. Read symbol =, expecting <= or := 
+ERROR:HDLParsers:3402 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 101. Read symbol =, expecting <= or := 
+ERROR:HDLParsers:3402 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 115. Read symbol =, expecting <= or := 
+ERROR:HDLParsers:164 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 126. parse error, unexpected LT
+ERROR:HDLParsers:164 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 131. parse error, unexpected PROCESS, expecting IF
+ERROR:HDLParsers:164 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 134. parse error, unexpected IDENTIFIER, expecting IF
+Parsing "transmite_ftec_stx.prj": 0.21
+ERROR: vhpcomp failed
+Process "Check Syntax for Simulation" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax for Simulation".
+
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library isim_temp.
+Entity <projeto> compiled.
+Entity <projeto> (Architecture <Behavioral>) compiled.
+Parsing "projeto_stx.prj": 0.05
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+Entity <projeto> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <projeto> (Architecture <Behavioral>).
+INFO:Xst:1304 - Contents of register <f> in unit <projeto> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <t> in unit <projeto> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <e> in unit <projeto> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <c> in unit <projeto> never changes during circuit operation. The register is replaced by logic.
+Entity <projeto> analyzed. Unit <projeto> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <projeto>.
+    Related source file is "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd".
+WARNING:Xst:646 - Signal <c> is assigned but never used.
+WARNING:Xst:646 - Signal <e> is assigned but never used.
+WARNING:Xst:646 - Signal <f> is assigned but never used.
+WARNING:Xst:646 - Signal <t> is assigned but never used.
+    Found 8-bit up counter for signal <conta>.
+    Found 13-bit up counter for signal <divisor>.
+    Found 3-bit up counter for signal <indice>.
+    Found 1-bit register for signal <transmite>.
+    Summary:
+	inferred   3 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <projeto> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                         : 3
+ 13-bit up counter                 : 1
+ 3-bit up counter                  : 1
+ 8-bit up counter                  : 1
+# Registers                        : 1
+ 1-bit register                    : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <projeto> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block projeto, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      28  out of   4656     0%  
+ Number of Slice Flip Flops:            25  out of   9312     0%  
+ Number of 4 input LUTs:                52  out of   9312     0%  
+ Number of bonded IOBs:                  3  out of    232     1%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 25    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.818ns (Maximum Frequency: 127.910MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 8.062ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\transmite_ftec/_ngo -nt timestamp -i -p xc3s500e-fg320-4
+projeto.ngc projeto.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/transmite_ftec/projeto.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "projeto.ngd" ...
+
+Writing NGDBUILD log file "projeto.bld"...
+
+NGDBUILD done.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\transmite_ftec/_ngo -nt timestamp -uc projeto.ucf -p
+xc3s500e-fg320-4 projeto.ngc projeto.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/transmite_ftec/projeto.ngc' ...
+
+Applying constraints in "projeto.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "projeto.ngd" ...
+
+Writing NGDBUILD log file "projeto.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          25 out of   9,312    1%
+  Number of 4 input LUTs:              45 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                           27 out of   4,656    1%
+    Number of Slices containing only related logic:      27 out of      27  100%
+    Number of Slices containing unrelated logic:          0 out of      27    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             52 out of   9,312    1%
+  Number used as logic:                 45
+  Number used as a route-thru:           7
+  Number of bonded IOBs:                3 out of     232    1%
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  599
+Additional JTAG gate count for IOBs:  144
+Peak Memory Usage:  190 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "projeto_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: projeto.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "projeto" is an NCD, version 3.1, device xc3s500e, package fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            2 out of 232     1%
+      Number of LOCed IBUFs            2 out of 2     100%
+
+   Number of External IOBs             1 out of 176     1%
+      Number of LOCed IOBs             1 out of 1     100%
+
+   Number of Slices                   27 out of 4656    1%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 5 secs 
+Finished initial Timing Analysis.  REAL time: 5 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:9896fd) REAL time: 6 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 6 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 9 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 9 secs 
+
+Phase 5.8
+.
+.
+Phase 5.8 (Checksum:990204) REAL time: 9 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 9 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 9 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 9 secs 
+
+Writing design to file projeto.ncd
+
+
+Total REAL time to Placer completion: 9 secs 
+Total CPU time to Placer completion: 8 secs 
+
+Starting Router
+
+Phase 1: 205 unrouted;       REAL time: 12 secs 
+
+Phase 2: 189 unrouted;       REAL time: 12 secs 
+
+Phase 3: 29 unrouted;       REAL time: 12 secs 
+
+Phase 4: 29 unrouted; (0)      REAL time: 12 secs 
+
+Phase 5: 29 unrouted; (0)      REAL time: 12 secs 
+
+Phase 6: 29 unrouted; (0)      REAL time: 12 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 12 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 12 secs 
+
+
+Total REAL time to Router completion: 12 secs 
+Total CPU time to Router completion: 10 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP | BUFGMUX_X2Y11| No   |   15 |  0.020     |  1.070      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 7.558ns    | 4    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 12 secs 
+Total CPU time to PAR completion: 10 secs 
+
+Peak Memory Usage:  168 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file projeto.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "projeto" is an NCD, version 3.1, device xc3s500e, package fg320, speed -4
+
+Analysis completed Wed Apr 10 19:55:53 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 6 secs 
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+WARNING:HDLParsers:3310 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 59. Function transmitir_letra is not pure.  VHDL 87 allowed this; VHDL 93 requires the keyword IMPURE.
+ERROR:HDLParsers:164 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 60. parse error, unexpected PROCESS
+--> 
+
+Total memory usage is 141984 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+WARNING:HDLParsers:3310 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 59. Function transmitir_letra is not pure.  VHDL 87 allowed this; VHDL 93 requires the keyword IMPURE.
+ERROR:HDLParsers:164 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 60. parse error, unexpected PROCESS
+--> 
+
+Total memory usage is 142112 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+WARNING:HDLParsers:3310 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 59. Function transmitir_letra is not pure.  VHDL 87 allowed this; VHDL 93 requires the keyword IMPURE.
+ERROR:HDLParsers:164 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 60. parse error, unexpected PROCESS
+--> 
+
+Total memory usage is 141664 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax for Simulation".
+
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library isim_temp.
+Entity <projeto> compiled.
+WARNING:HDLParsers:3310 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 32. Function transmitir_letra is not pure.  VHDL 87 allowed this; VHDL 93 requires the keyword IMPURE.
+Entity <projeto> (Architecture <behavioral>) compiled.
+Parsing "projeto_stx.prj": 0.05
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+WARNING:HDLParsers:3310 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 32. Function transmitir_letra is not pure.  VHDL 87 allowed this; VHDL 93 requires the keyword IMPURE.
+Entity <projeto> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <projeto> (Architecture <behavioral>).
+Entity <projeto> analyzed. Unit <projeto> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <projeto>.
+    Related source file is "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd".
+WARNING:Xst:653 - Signal <mensagem> is used but never assigned. Tied to value 01100110011101000110010101100011.
+    Found 8-bit 4-to-1 multiplexer for signal <$n0001> created at line 56.
+    Found 1-bit 4-to-1 multiplexer for signal <$n0010>.
+    Found 3-bit comparator less for signal <$n0013> created at line 55.
+    Found 8-bit up counter for signal <conta>.
+    Found 13-bit up counter for signal <divisor>.
+    Found 3-bit up counter for signal <indice>.
+    Found 1-bit register for signal <transmite>.
+    Summary:
+	inferred   3 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   9 Multiplexer(s).
+Unit <projeto> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                         : 3
+ 13-bit up counter                 : 1
+ 3-bit up counter                  : 1
+ 8-bit up counter                  : 1
+# Registers                        : 1
+ 1-bit register                    : 1
+# Comparators                      : 1
+ 3-bit comparator less             : 1
+# Multiplexers                     : 2
+ 1-bit 4-to-1 multiplexer          : 1
+ 8-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <projeto> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block projeto, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      26  out of   4656     0%  
+ Number of Slice Flip Flops:            25  out of   9312     0%  
+ Number of 4 input LUTs:                47  out of   9312     0%  
+ Number of bonded IOBs:                  3  out of    232     1%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 25    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.818ns (Maximum Frequency: 127.910MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.986ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\transmite_ftec/_ngo -nt timestamp -uc projeto.ucf -p
+xc3s500e-fg320-4 projeto.ngc projeto.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/transmite_ftec/projeto.ngc' ...
+
+Applying constraints in "projeto.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "projeto.ngd" ...
+
+Writing NGDBUILD log file "projeto.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          24 out of   9,312    1%
+  Number of 4 input LUTs:              40 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                           24 out of   4,656    1%
+    Number of Slices containing only related logic:      24 out of      24  100%
+    Number of Slices containing unrelated logic:          0 out of      24    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             47 out of   9,312    1%
+  Number used as logic:                 40
+  Number used as a route-thru:           7
+  Number of bonded IOBs:                3 out of     232    1%
+    IOB Flip Flops:                     1
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  569
+Additional JTAG gate count for IOBs:  144
+Peak Memory Usage:  190 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "projeto_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: projeto.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "projeto" is an NCD, version 3.1, device xc3s500e, package fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            2 out of 232     1%
+      Number of LOCed IBUFs            2 out of 2     100%
+
+   Number of External IOBs             1 out of 176     1%
+      Number of LOCed IOBs             1 out of 1     100%
+
+   Number of Slices                   24 out of 4656    1%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:9896eb) REAL time: 3 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 3 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 4 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 4 secs 
+
+Phase 5.8
+.
+.
+Phase 5.8 (Checksum:98f025) REAL time: 4 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 4 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 4 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 4 secs 
+
+Writing design to file projeto.ncd
+
+
+Total REAL time to Placer completion: 4 secs 
+Total CPU time to Placer completion: 3 secs 
+
+Starting Router
+
+Phase 1: 192 unrouted;       REAL time: 5 secs 
+
+Phase 2: 176 unrouted;       REAL time: 5 secs 
+
+Phase 3: 16 unrouted;       REAL time: 5 secs 
+
+Phase 4: 16 unrouted; (0)      REAL time: 5 secs 
+
+Phase 5: 16 unrouted; (0)      REAL time: 5 secs 
+
+Phase 6: 16 unrouted; (0)      REAL time: 5 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 5 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 5 secs 
+
+
+Total REAL time to Router completion: 5 secs 
+Total CPU time to Router completion: 4 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP | BUFGMUX_X2Y11| No   |   15 |  0.020     |  1.070      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 7.866ns    | 3    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 5 secs 
+
+Peak Memory Usage:  168 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file projeto.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "projeto" is an NCD, version 3.1, device xc3s500e, package fg320, speed -4
+
+Analysis completed Wed Apr 10 20:53:12 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+WARNING:HDLParsers:3310 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 32. Function transmitir_letra is not pure.  VHDL 87 allowed this; VHDL 93 requires the keyword IMPURE.
+Entity <projeto> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <projeto> (Architecture <behavioral>).
+Entity <projeto> analyzed. Unit <projeto> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <projeto>.
+    Related source file is "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd".
+WARNING:Xst:653 - Signal <mensagem> is used but never assigned. Tied to value 01100110011101000110010101100011.
+    Found 8-bit 4-to-1 multiplexer for signal <$n0001> created at line 56.
+    Found 1-bit 4-to-1 multiplexer for signal <$n0010>.
+    Found 3-bit comparator less for signal <$n0013> created at line 55.
+    Found 8-bit up counter for signal <conta>.
+    Found 13-bit up counter for signal <divisor>.
+    Found 3-bit up counter for signal <indice>.
+    Found 1-bit register for signal <transmite>.
+    Summary:
+	inferred   3 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   9 Multiplexer(s).
+Unit <projeto> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                         : 3
+ 13-bit up counter                 : 1
+ 3-bit up counter                  : 1
+ 8-bit up counter                  : 1
+# Registers                        : 1
+ 1-bit register                    : 1
+# Comparators                      : 1
+ 3-bit comparator less             : 1
+# Multiplexers                     : 2
+ 1-bit 4-to-1 multiplexer          : 1
+ 8-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <projeto> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block projeto, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      26  out of   4656     0%  
+ Number of Slice Flip Flops:            25  out of   9312     0%  
+ Number of 4 input LUTs:                47  out of   9312     0%  
+ Number of bonded IOBs:                  3  out of    232     1%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 25    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.818ns (Maximum Frequency: 127.910MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.986ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\transmite_ftec/_ngo -nt timestamp -uc projeto.ucf -p
+xc3s500e-fg320-4 projeto.ngc projeto.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/transmite_ftec/projeto.ngc' ...
+
+Applying constraints in "projeto.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "projeto.ngd" ...
+
+Writing NGDBUILD log file "projeto.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          24 out of   9,312    1%
+  Number of 4 input LUTs:              40 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                           24 out of   4,656    1%
+    Number of Slices containing only related logic:      24 out of      24  100%
+    Number of Slices containing unrelated logic:          0 out of      24    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             47 out of   9,312    1%
+  Number used as logic:                 40
+  Number used as a route-thru:           7
+  Number of bonded IOBs:                3 out of     232    1%
+    IOB Flip Flops:                     1
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  569
+Additional JTAG gate count for IOBs:  144
+Peak Memory Usage:  190 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "projeto_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: projeto.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "projeto" is an NCD, version 3.1, device xc3s500e, package fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            2 out of 232     1%
+      Number of LOCed IBUFs            2 out of 2     100%
+
+   Number of External IOBs             1 out of 176     1%
+      Number of LOCed IOBs             1 out of 1     100%
+
+   Number of Slices                   24 out of 4656    1%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:9896eb) REAL time: 2 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 3 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 3 secs 
+
+Phase 5.8
+.
+.
+Phase 5.8 (Checksum:98f025) REAL time: 3 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 3 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 3 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 3 secs 
+
+Writing design to file projeto.ncd
+
+
+Total REAL time to Placer completion: 3 secs 
+Total CPU time to Placer completion: 3 secs 
+
+Starting Router
+
+Phase 1: 192 unrouted;       REAL time: 4 secs 
+
+Phase 2: 176 unrouted;       REAL time: 4 secs 
+
+Phase 3: 16 unrouted;       REAL time: 4 secs 
+
+Phase 4: 16 unrouted; (0)      REAL time: 4 secs 
+
+Phase 5: 16 unrouted; (0)      REAL time: 4 secs 
+
+Phase 6: 16 unrouted; (0)      REAL time: 4 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 4 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 4 secs 
+
+
+Total REAL time to Router completion: 4 secs 
+Total CPU time to Router completion: 4 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP | BUFGMUX_X2Y11| No   |   15 |  0.020     |  1.070      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 7.866ns    | 3    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 5 secs 
+
+Peak Memory Usage:  167 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file projeto.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "projeto" is an NCD, version 3.1, device xc3s500e, package fg320, speed -4
+
+Analysis completed Wed Apr 10 20:55:05 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+ERROR:HDLParsers:854 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 58. The expression can not be converted to type character.
+--> 
+
+Total memory usage is 142176 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+ERROR:HDLParsers:164 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 38. parse error, unexpected COMMA, expecting SEMICOLON or CLOSEPAR
+--> 
+
+Total memory usage is 141600 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+ERROR:HDLParsers:164 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 38. parse error, unexpected COMMA, expecting SEMICOLON or CLOSEPAR
+--> 
+
+Total memory usage is 141728 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+ERROR:HDLParsers:164 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 38. parse error, unexpected COMMA, expecting SEMICOLON or CLOSEPAR
+--> 
+
+Total memory usage is 142112 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+ERROR:HDLParsers:164 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 38. parse error, unexpected COMMA, expecting SEMICOLON or CLOSEPAR
+--> 
+
+Total memory usage is 141664 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+ERROR:HDLParsers:3313 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 72. Undefined symbol 'f'.  Should it be: ff?
+ERROR:HDLParsers:3312 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 73. Undefined symbol 't'.
+ERROR:HDLParsers:3312 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 75. Undefined symbol 'c'.
+ERROR:HDLParsers:1209 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 90. f: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3324 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 90. IN mode Formal letra of transmite_func with no default value must be associated with an actual value.
+ERROR:HDLParsers:1209 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 92. t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3324 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 92. IN mode Formal letra of transmite_func with no default value must be associated with an actual value.
+ERROR:HDLParsers:1209 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 96. c: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3324 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 96. IN mode Formal letra of transmite_func with no default value must be associated with an actual value.
+ERROR:HDLParsers:814 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 89. Integer value 7 is missing in case.
+--> 
+
+Total memory usage is 142368 kilobytes
+
+Number of errors   :   10 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+ERROR:HDLParsers:3313 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 72. Undefined symbol 'f'.  Should it be: ff?
+ERROR:HDLParsers:3312 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 73. Undefined symbol 't'.
+ERROR:HDLParsers:3312 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 75. Undefined symbol 'c'.
+ERROR:HDLParsers:1209 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 90. f: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3324 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 90. IN mode Formal letra of transmite_func with no default value must be associated with an actual value.
+ERROR:HDLParsers:1209 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 92. t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3324 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 92. IN mode Formal letra of transmite_func with no default value must be associated with an actual value.
+ERROR:HDLParsers:1209 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 96. c: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3324 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 96. IN mode Formal letra of transmite_func with no default value must be associated with an actual value.
+ERROR:HDLParsers:814 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 89. Integer value 7 is missing in case.
+--> 
+
+Total memory usage is 141984 kilobytes
+
+Number of errors   :   10 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+ERROR:HDLParsers:3313 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 90. Undefined symbol 'f'.  Should it be: ff?
+ERROR:HDLParsers:1209 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 90. f: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3324 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 90. IN mode Formal letra of transmite_func with no default value must be associated with an actual value.
+ERROR:HDLParsers:3312 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 92. Undefined symbol 't'.
+ERROR:HDLParsers:1209 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 92. t: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3324 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 92. IN mode Formal letra of transmite_func with no default value must be associated with an actual value.
+ERROR:HDLParsers:3312 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 96. Undefined symbol 'c'.
+ERROR:HDLParsers:1209 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 96. c: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3324 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 96. IN mode Formal letra of transmite_func with no default value must be associated with an actual value.
+ERROR:HDLParsers:814 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 89. Integer value 7 is missing in case.
+--> 
+
+Total memory usage is 142176 kilobytes
+
+Number of errors   :   10 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+ERROR:HDLParsers:814 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 89. Integer value 7 is missing in case.
+--> 
+
+Total memory usage is 141472 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+ERROR:HDLParsers:814 - "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" Line 89. Integer value 7 is missing in case.
+--> 
+
+Total memory usage is 141920 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+ERROR: XST failed
+Process "Synthesize" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+Entity <projeto> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <projeto> (Architecture <behavioral>).
+INFO:Xst:1304 - Contents of register <j> in unit <projeto> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <u> in unit <projeto> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <v> in unit <projeto> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <e> in unit <projeto> never changes during circuit operation. The register is replaced by logic.
+Entity <projeto> analyzed. Unit <projeto> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <projeto>.
+    Related source file is "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd".
+WARNING:Xst:646 - Signal <e> is assigned but never used.
+WARNING:Xst:646 - Signal <j> is assigned but never used.
+WARNING:Xst:646 - Signal <u> is assigned but never used.
+WARNING:Xst:646 - Signal <v> is assigned but never used.
+    Found 8-bit comparator greater for signal <$n0026> created at line 46.
+    Found 8-bit comparator less for signal <$n0027> created at line 46.
+    Found 8-bit up counter for signal <conta>.
+    Found 13-bit up counter for signal <divisor>.
+    Found 3-bit up counter for signal <indice>.
+    Found 1-bit register for signal <transmite>.
+    Summary:
+	inferred   3 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <projeto> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                         : 3
+ 13-bit up counter                 : 1
+ 3-bit up counter                  : 1
+ 8-bit up counter                  : 1
+# Registers                        : 1
+ 1-bit register                    : 1
+# Comparators                      : 2
+ 8-bit comparator greater          : 1
+ 8-bit comparator less             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <projeto> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block projeto, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      27  out of   4656     0%  
+ Number of Slice Flip Flops:            25  out of   9312     0%  
+ Number of 4 input LUTs:                50  out of   9312     0%  
+ Number of bonded IOBs:                  3  out of    232     1%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 25    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.822ns (Maximum Frequency: 127.845MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.986ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\transmite_ftec/_ngo -nt timestamp -uc projeto.ucf -p
+xc3s500e-fg320-4 projeto.ngc projeto.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/transmite_ftec/projeto.ngc' ...
+
+Applying constraints in "projeto.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "projeto.ngd" ...
+
+Writing NGDBUILD log file "projeto.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          24 out of   9,312    1%
+  Number of 4 input LUTs:              43 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                           27 out of   4,656    1%
+    Number of Slices containing only related logic:      27 out of      27  100%
+    Number of Slices containing unrelated logic:          0 out of      27    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             50 out of   9,312    1%
+  Number used as logic:                 43
+  Number used as a route-thru:           7
+  Number of bonded IOBs:                3 out of     232    1%
+    IOB Flip Flops:                     1
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  587
+Additional JTAG gate count for IOBs:  144
+Peak Memory Usage:  190 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "projeto_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: projeto.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "projeto" is an NCD, version 3.1, device xc3s500e, package fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            2 out of 232     1%
+      Number of LOCed IBUFs            2 out of 2     100%
+
+   Number of External IOBs             1 out of 176     1%
+      Number of LOCed IOBs             1 out of 1     100%
+
+   Number of Slices                   27 out of 4656    1%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:9896fd) REAL time: 2 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 3 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 3 secs 
+
+Phase 5.8
+.
+.
+Phase 5.8 (Checksum:99016e) REAL time: 3 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 3 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 3 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 3 secs 
+
+Writing design to file projeto.ncd
+
+
+Total REAL time to Placer completion: 3 secs 
+Total CPU time to Placer completion: 3 secs 
+
+Starting Router
+
+Phase 1: 200 unrouted;       REAL time: 4 secs 
+
+Phase 2: 184 unrouted;       REAL time: 4 secs 
+
+Phase 3: 31 unrouted;       REAL time: 4 secs 
+
+Phase 4: 31 unrouted; (0)      REAL time: 4 secs 
+
+Phase 5: 31 unrouted; (0)      REAL time: 4 secs 
+
+Phase 6: 31 unrouted; (0)      REAL time: 4 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 4 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 4 secs 
+
+
+Total REAL time to Router completion: 4 secs 
+Total CPU time to Router completion: 4 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP | BUFGMUX_X2Y11| No   |   15 |  0.020     |  1.070      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 8.113ns    | 3    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 5 secs 
+
+Peak Memory Usage:  168 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file projeto.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "projeto" is an NCD, version 3.1, device xc3s500e, package fg320, speed -4
+
+Analysis completed Wed Apr 10 21:51:58 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+Entity <projeto> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <projeto> (Architecture <behavioral>).
+Entity <projeto> analyzed. Unit <projeto> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <projeto>.
+    Related source file is "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd".
+WARNING:Xst:653 - Signal <e> is used but never assigned. Tied to value 01100101.
+WARNING:Xst:653 - Signal <j> is used but never assigned. Tied to value 01101010.
+WARNING:Xst:653 - Signal <u> is used but never assigned. Tied to value 01110101.
+WARNING:Xst:653 - Signal <v> is used but never assigned. Tied to value 01110110.
+    Found 8-bit comparator greater for signal <$n0026> created at line 39.
+    Found 8-bit comparator less for signal <$n0027> created at line 39.
+    Found 8-bit up counter for signal <conta>.
+    Found 13-bit up counter for signal <divisor>.
+    Found 3-bit up counter for signal <indice>.
+    Found 1-bit register for signal <transmite>.
+    Summary:
+	inferred   3 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <projeto> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                         : 3
+ 13-bit up counter                 : 1
+ 3-bit up counter                  : 1
+ 8-bit up counter                  : 1
+# Registers                        : 1
+ 1-bit register                    : 1
+# Comparators                      : 2
+ 8-bit comparator greater          : 1
+ 8-bit comparator less             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <projeto> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block projeto, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      25  out of   4656     0%  
+ Number of Slice Flip Flops:            25  out of   9312     0%  
+ Number of 4 input LUTs:                46  out of   9312     0%  
+ Number of bonded IOBs:                  3  out of    232     1%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 25    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.818ns (Maximum Frequency: 127.910MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.986ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\transmite_ftec/_ngo -nt timestamp -uc projeto.ucf -p
+xc3s500e-fg320-4 projeto.ngc projeto.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/transmite_ftec/projeto.ngc' ...
+
+Applying constraints in "projeto.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "projeto.ngd" ...
+
+Writing NGDBUILD log file "projeto.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          24 out of   9,312    1%
+  Number of 4 input LUTs:              39 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                           23 out of   4,656    1%
+    Number of Slices containing only related logic:      23 out of      23  100%
+    Number of Slices containing unrelated logic:          0 out of      23    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             46 out of   9,312    1%
+  Number used as logic:                 39
+  Number used as a route-thru:           7
+  Number of bonded IOBs:                3 out of     232    1%
+    IOB Flip Flops:                     1
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  569
+Additional JTAG gate count for IOBs:  144
+Peak Memory Usage:  190 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "projeto_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: projeto.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "projeto" is an NCD, version 3.1, device xc3s500e, package fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            2 out of 232     1%
+      Number of LOCed IBUFs            2 out of 2     100%
+
+   Number of External IOBs             1 out of 176     1%
+      Number of LOCed IOBs             1 out of 1     100%
+
+   Number of Slices                   23 out of 4656    1%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:9896e5) REAL time: 2 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 3 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 3 secs 
+
+Phase 5.8
+.
+.
+Phase 5.8 (Checksum:98f697) REAL time: 3 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 3 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 3 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 3 secs 
+
+Writing design to file projeto.ncd
+
+
+Total REAL time to Placer completion: 3 secs 
+Total CPU time to Placer completion: 3 secs 
+
+Starting Router
+
+Phase 1: 189 unrouted;       REAL time: 4 secs 
+
+Phase 2: 173 unrouted;       REAL time: 5 secs 
+
+Phase 3: 28 unrouted;       REAL time: 5 secs 
+
+Phase 4: 28 unrouted; (0)      REAL time: 5 secs 
+
+Phase 5: 28 unrouted; (0)      REAL time: 5 secs 
+
+Phase 6: 28 unrouted; (0)      REAL time: 5 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 5 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 5 secs 
+
+
+Total REAL time to Router completion: 5 secs 
+Total CPU time to Router completion: 4 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP | BUFGMUX_X2Y11| No   |   15 |  0.020     |  1.070      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 7.431ns    | 3    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 5 secs 
+
+Peak Memory Usage:  168 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file projeto.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "projeto" is an NCD, version 3.1, device xc3s500e, package fg320, speed -4
+
+Analysis completed Wed Apr 10 21:57:19 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd" in Library work.
+Entity <projeto> compiled.
+Entity <projeto> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <projeto> (Architecture <behavioral>).
+Entity <projeto> analyzed. Unit <projeto> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <projeto>.
+    Related source file is "C:/Users/Felipe/Desktop/transmite_ftec/transmite_ftec.vhd".
+WARNING:Xst:653 - Signal <e> is used but never assigned. Tied to value 01100101.
+WARNING:Xst:653 - Signal <j> is used but never assigned. Tied to value 01101010.
+WARNING:Xst:653 - Signal <u> is used but never assigned. Tied to value 01110101.
+WARNING:Xst:653 - Signal <v> is used but never assigned. Tied to value 01110110.
+    Found 8-bit comparator greater for signal <$n0027> created at line 39.
+    Found 8-bit comparator less for signal <$n0028> created at line 39.
+    Found 8-bit up counter for signal <conta>.
+    Found 13-bit up counter for signal <divisor>.
+    Found 3-bit up counter for signal <indice>.
+    Found 1-bit register for signal <transmite>.
+    Summary:
+	inferred   3 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <projeto> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                         : 3
+ 13-bit up counter                 : 1
+ 3-bit up counter                  : 1
+ 8-bit up counter                  : 1
+# Registers                        : 1
+ 1-bit register                    : 1
+# Comparators                      : 2
+ 8-bit comparator greater          : 1
+ 8-bit comparator less             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <projeto> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block projeto, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      27  out of   4656     0%  
+ Number of Slice Flip Flops:            25  out of   9312     0%  
+ Number of 4 input LUTs:                50  out of   9312     0%  
+ Number of bonded IOBs:                  3  out of    232     1%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 25    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.818ns (Maximum Frequency: 127.910MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.986ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\transmite_ftec/_ngo -nt timestamp -uc projeto.ucf -p
+xc3s500e-fg320-4 projeto.ngc projeto.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/transmite_ftec/projeto.ngc' ...
+
+Applying constraints in "projeto.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "projeto.ngd" ...
+
+Writing NGDBUILD log file "projeto.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          24 out of   9,312    1%
+  Number of 4 input LUTs:              43 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                           26 out of   4,656    1%
+    Number of Slices containing only related logic:      26 out of      26  100%
+    Number of Slices containing unrelated logic:          0 out of      26    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:             50 out of   9,312    1%
+  Number used as logic:                 43
+  Number used as a route-thru:           7
+  Number of bonded IOBs:                3 out of     232    1%
+    IOB Flip Flops:                     1
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  590
+Additional JTAG gate count for IOBs:  144
+Peak Memory Usage:  190 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "projeto_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: projeto.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "projeto" is an NCD, version 3.1, device xc3s500e, package fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            2 out of 232     1%
+      Number of LOCed IBUFs            2 out of 2     100%
+
+   Number of External IOBs             1 out of 176     1%
+      Number of LOCed IOBs             1 out of 1     100%
+
+   Number of Slices                   26 out of 4656    1%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:9896f7) REAL time: 2 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 3 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 3 secs 
+
+Phase 5.8
+.
+.
+Phase 5.8 (Checksum:98f3a9) REAL time: 3 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 3 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 3 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 3 secs 
+
+Writing design to file projeto.ncd
+
+
+Total REAL time to Placer completion: 3 secs 
+Total CPU time to Placer completion: 3 secs 
+
+Starting Router
+
+Phase 1: 204 unrouted;       REAL time: 4 secs 
+
+Phase 2: 188 unrouted;       REAL time: 4 secs 
+
+Phase 3: 30 unrouted;       REAL time: 4 secs 
+
+Phase 4: 30 unrouted; (0)      REAL time: 4 secs 
+
+Phase 5: 30 unrouted; (0)      REAL time: 4 secs 
+
+Phase 6: 30 unrouted; (0)      REAL time: 4 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 4 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 4 secs 
+
+
+Total REAL time to Router completion: 4 secs 
+Total CPU time to Router completion: 4 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP | BUFGMUX_X2Y11| No   |   15 |  0.020     |  1.070      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 7.637ns    | 4    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 5 secs 
+
+Peak Memory Usage:  168 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file projeto.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "projeto" is an NCD, version 3.1, device xc3s500e, package fg320, speed -4
+
+Analysis completed Wed Apr 10 21:59:09 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 3 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+

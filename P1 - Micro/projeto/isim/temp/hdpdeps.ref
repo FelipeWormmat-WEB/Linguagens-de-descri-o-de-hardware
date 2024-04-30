@@ -1,0 +1,8 @@
+V2 3
+FL "C:/Users/Felipe/Desktop/P1 - Micro/projeto/projeto.vhd" 2024/04/17.21:37:37 H.41
+EN isim_temp/PROJETO 1713996941    FL "C:/Users/Felipe/Desktop/P1 - Micro/projeto/projeto.vhd" \
+      PB ieee/STD_LOGIC_1164 1116260719 PB ieee/STD_LOGIC_ARITH 1116260721 \
+      PB ieee/STD_LOGIC_UNSIGNED 1116260727
+AR isim_temp/PROJETO/BEHAVIORAL 1713996942 \
+      FL "C:/Users/Felipe/Desktop/P1 - Micro/projeto/projeto.vhd" \
+      EN isim_temp/PROJETO 1713996941

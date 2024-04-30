@@ -1,0 +1,152 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax for Simulation".
+
+Compiling vhdl file "C:/Users/Felipe/Desktop/multiplicador_99/multiplicador_99.vhd" in Library isim_temp.
+Entity <multiplicador_99> compiled.
+Entity <multiplicador_99> (Architecture <Behavioral>) compiled.
+Parsing "multiplicador_99_stx.prj": 0.10
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/multiplicador_99/multiplicador_99.vhd" in Library work.
+Entity <multiplicador_99> compiled.
+Entity <multiplicador_99> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <multiplicador_99> (Architecture <Behavioral>).
+Entity <multiplicador_99> analyzed. Unit <multiplicador_99> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <multiplicador_99>.
+    Related source file is "C:/Users/Felipe/Desktop/multiplicador_99/multiplicador_99.vhd".
+WARNING:Xst:647 - Input <reset> is never used.
+WARNING:Xst:647 - Input <check> is never used.
+WARNING:Xst:1306 - Output <display> is never assigned.
+WARNING:Xst:1306 - Output <segmentos> is never assigned.
+Unit <multiplicador_99> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplicador_99> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplicador_99, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of bonded IOBs:                 14  out of    232     6%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\multiplicador_99/_ngo -nt timestamp -i -p
+xc3s500e-fg320-4 multiplicador_99.ngc multiplicador_99.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/multiplicador_99/multiplicador_99.ngc'
+...
+Loading design module
+"C:\Users\Felipe\Desktop\multiplicador_99/multiplicador_99.ngc"...
+WARNING:NgdBuild:578 - Design contains no instances.
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   1
+
+Writing NGD file "multiplicador_99.ngd" ...
+
+Writing NGDBUILD log file "multiplicador_99.bld"...
+
+NGDBUILD done.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+

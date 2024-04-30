@@ -1,0 +1,29 @@
+//! **************************************************************************
+// Written by: Map H.41 on Wed Apr 24 19:18:05 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "porta<0>" LOCATE = SITE "J14" LEVEL 1;
+COMP "porta<1>" LOCATE = SITE "J15" LEVEL 1;
+COMP "porta<2>" LOCATE = SITE "K15" LEVEL 1;
+COMP "porta<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "porta<4>" LOCATE = SITE "E17" LEVEL 1;
+COMP "porta<5>" LOCATE = SITE "P15" LEVEL 1;
+COMP "porta<6>" LOCATE = SITE "F4" LEVEL 1;
+COMP "porta<7>" LOCATE = SITE "R4" LEVEL 1;
+COMP "clock" LOCATE = SITE "B18" LEVEL 1;
+COMP "reset" LOCATE = SITE "D18" LEVEL 1;
+NET "clock_BUFGP/IBUFG" BEL "clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+TIMEGRP clock = BEL "operacao_1" BEL "dado_0" BEL "dado_5" BEL "dado_7" BEL
+        "dado_4" BEL "registradores_0_6" BEL "registradores_0_5" BEL
+        "registradores_0_4" BEL "registradores_0_3" BEL "registradores_0_2"
+        BEL "registradores_0_1" BEL "registradores_0_0" BEL "dado_3" BEL
+        "dado_2" BEL "acumulador_7" BEL "dado_6" BEL "registradores_1_7" BEL
+        "opcode_1" BEL "acumulador_5" BEL "acumulador_4" BEL "acumulador_3"
+        BEL "acumulador_2" BEL "acumulador_1" BEL "acumulador_0" BEL
+        "registradores_1_6" BEL "registradores_1_5" BEL "registradores_1_4"
+        BEL "registradores_1_3" BEL "registradores_1_2" BEL
+        "registradores_1_1" BEL "registradores_1_0" BEL "registradores_0_7"
+        BEL "dado_1" BEL "operacao_0" BEL "acumulador_6" BEL "operacao_0_1";
+TS_clock = PERIOD TIMEGRP "clock" 10 ns HIGH 50%;
+SCHEMATIC END;

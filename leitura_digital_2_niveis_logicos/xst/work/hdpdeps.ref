@@ -1,0 +1,9 @@
+V2 3
+FL C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd 2024/03/27.20:32:02 H.41
+EN work/LEITURA_DIGITAIS_2_NIVEIS 1711582349 \
+      FL C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd \
+      PB ieee/STD_LOGIC_1164 1106404628 PB ieee/STD_LOGIC_ARITH 1106404630 \
+      PB ieee/STD_LOGIC_UNSIGNED 1106404634
+AR work/LEITURA_DIGITAIS_2_NIVEIS/BEHAVIORAL 1711582350 \
+      FL C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niveis.vhd \
+      EN work/LEITURA_DIGITAIS_2_NIVEIS 1711582349

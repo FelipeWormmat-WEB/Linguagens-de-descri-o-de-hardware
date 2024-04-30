@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map H.41 on Wed Apr 10 21:59:00 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "tx" LOCATE = SITE "P9" LEVEL 1;
+COMP "clock" LOCATE = SITE "B8" LEVEL 1;
+COMP "reset" LOCATE = SITE "B18" LEVEL 1;
+NET "clock_BUFGP/IBUFG" BEL "clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+TIMEGRP clock = BEL "conta_3" BEL "divisor_10" BEL "transmite" BEL "conta_5"
+        BEL "indice_2" BEL "indice_0" BEL "indice_1" BEL "conta_0" BEL
+        "conta_2" BEL "conta_1" BEL "divisor_11" BEL "divisor_12" BEL
+        "conta_4" BEL "divisor_0" BEL "divisor_1" BEL "divisor_2" BEL
+        "divisor_3" BEL "divisor_4" BEL "divisor_5" BEL "divisor_6" BEL
+        "divisor_7" BEL "divisor_8" BEL "divisor_9" BEL "conta_6" BEL
+        "conta_7";
+TS_clock = PERIOD TIMEGRP "clock" 10 ns HIGH 50%;
+SCHEMATIC END;

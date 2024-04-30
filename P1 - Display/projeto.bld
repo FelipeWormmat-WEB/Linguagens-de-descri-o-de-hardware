@@ -1,0 +1,25 @@
+Release 7.1.03i ngdbuild H.41
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd
+"c:\users\eg\onedrive\faculdade\s13\linguagens e descrição de hardware\aula
+03\p1 - display/_ngo" -nt timestamp -uc projeto.ucf -p xc3s500e-fg320-4
+projeto.ngc projeto.ngd 
+
+Reading NGO file 'C:/Users/EG/OneDrive/Faculdade/S13/Linguagens e Descrição de
+Hardware/Aula 03/P1 - Display/projeto.ngc' ...
+
+Applying constraints in "projeto.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 98808 kilobytes
+
+Writing NGD file "projeto.ngd" ...
+
+Writing NGDBUILD log file "projeto.bld"...

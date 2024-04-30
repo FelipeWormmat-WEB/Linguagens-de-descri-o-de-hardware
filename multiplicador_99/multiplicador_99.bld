@@ -1,0 +1,25 @@
+Release 7.1.03i ngdbuild H.41
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\multiplicador_99/_ngo -nt timestamp -i -p
+xc3s500e-fg320-4 multiplicador_99.ngc multiplicador_99.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/multiplicador_99/multiplicador_99.ngc'
+...
+Loading design module
+"C:\Users\Felipe\Desktop\multiplicador_99/multiplicador_99.ngc"...
+WARNING:NgdBuild:578 - Design contains no instances.
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   1
+
+Total memory usage is 107196 kilobytes
+
+Writing NGD file "multiplicador_99.ngd" ...
+
+Writing NGDBUILD log file "multiplicador_99.bld"...

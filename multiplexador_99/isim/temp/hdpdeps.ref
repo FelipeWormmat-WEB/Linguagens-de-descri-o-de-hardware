@@ -1,0 +1,9 @@
+V2 3
+FL d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd 2024/04/03.19:29:31 H.41
+EN isim_temp/MULTIPLEXADOR_99 1712183373 \
+      FL d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd \
+      PB ieee/STD_LOGIC_1164 1116260719 PB ieee/STD_LOGIC_ARITH 1116260721 \
+      PB ieee/STD_LOGIC_UNSIGNED 1116260727
+AR isim_temp/MULTIPLEXADOR_99/BEHAVIORAL 1712183374 \
+      FL d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd \
+      EN isim_temp/MULTIPLEXADOR_99 1712183373

@@ -1,0 +1,342 @@
+Release 7.1.03i - xst H.41
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.17 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.17 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: multiplexador_99.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "multiplexador_99.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "multiplexador_99"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : multiplexador_99
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : multiplexador_99.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+safe_implementation                : No
+Optimize Instantiated Primitives   : NO
+use_clock_enable                   : Yes
+use_sync_set                       : Yes
+use_sync_reset                     : Yes
+enable_auto_floorplanning          : No
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd" in Library work.
+Entity <multiplexador_99> compiled.
+Entity <multiplexador_99> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <multiplexador_99> (Architecture <behavioral>).
+Entity <multiplexador_99> analyzed. Unit <multiplexador_99> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <multiplexador_99>.
+    Related source file is "C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd".
+    Found 14-bit 4-to-1 multiplexer for signal <$n0050>.
+    Found 14-bit adder for signal <$n0051> created at line 107.
+    Found 4-bit up counter for signal <centena>.
+    Found 19-bit up counter for signal <count>.
+    Found 4-bit up counter for signal <dezena>.
+    Found 4-bit up counter for signal <milhar>.
+    Found 14-bit register for signal <mux>.
+    Found 8-bit register for signal <segment>.
+    Found 4-bit register for signal <transistor>.
+    Found 4-bit up counter for signal <unidade>.
+    Summary:
+	inferred   5 Counter(s).
+	inferred  22 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  14 Multiplexer(s).
+Unit <multiplexador_99> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 14-bit adder                      : 1
+# Counters                         : 5
+ 19-bit up counter                 : 1
+ 4-bit up counter                  : 4
+# Registers                        : 3
+ 14-bit register                   : 1
+ 4-bit register                    : 1
+ 8-bit register                    : 1
+# Multiplexers                     : 1
+ 14-bit 4-to-1 multiplexer         : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplexador_99> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplexador_99, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : multiplexador_99.ngr
+Top Level Output File Name         : multiplexador_99
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 14
+
+Macro Statistics :
+# Registers                        : 10
+#      1-bit register              : 4
+#      14-bit register             : 1
+#      4-bit register              : 4
+#      8-bit register              : 1
+# Counters                         : 1
+#      19-bit up counter           : 1
+# Multiplexers                     : 1
+#      14-bit 4-to-1 multiplexer   : 1
+# Adders/Subtractors               : 1
+#      14-bit adder                : 1
+
+Cell Usage :
+# BELS                             : 263
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 18
+#      LUT2                        : 4
+#      LUT2_D                      : 2
+#      LUT2_L                      : 16
+#      LUT3                        : 23
+#      LUT3_D                      : 6
+#      LUT3_L                      : 9
+#      LUT4                        : 63
+#      LUT4_D                      : 7
+#      LUT4_L                      : 47
+#      MUXCY                       : 32
+#      MUXF5                       : 1
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 61
+#      FDC                         : 2
+#      FDCE                        : 16
+#      FDCPE                       : 19
+#      FDE                         : 14
+#      FDP                         : 10
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 1
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                     105  out of   4656     2%  
+ Number of Slice Flip Flops:            61  out of   9312     0%  
+ Number of 4 input LUTs:               195  out of   9312     2%  
+ Number of bonded IOBs:                 14  out of    232     6%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 61    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 10.118ns (Maximum Frequency: 98.834MHz)
+   Minimum input arrival time before clock: 5.958ns
+   Maximum output required time after clock: 8.092ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 10.118ns (frequency: 98.834MHz)
+  Total number of paths / destination ports: 5683 / 91
+-------------------------------------------------------------------------
+Delay:               10.118ns (Levels of Logic = 5)
+  Source:            count_13 (FF)
+  Destination:       mux_13 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: count_13 to mux_13
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            2   0.455   1.082  count_13 (count_13)
+     LUT2:I0->O            1   0.757   0.802  _n00416 (CHOICE278)
+     LUT4:I3->O           16   0.778   1.291  _n004127 (CHOICE286)
+     LUT3_D:I2->O          5   0.757   0.922  _n004189 (_n0173<1>)
+     LUT4_D:I3->O         13   0.778   1.300  Ker64 (N64)
+     LUT2_L:I1->LO         1   0.778   0.000  _n0050<1>1 (_n0050<1>)
+     FDE:D                     0.418          mux_1
+    ----------------------------------------
+    Total                     10.118ns (4.721ns logic, 5.397ns route)
+                                       (46.7% logic, 53.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Offset:              5.958ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       mux_13 (FF)
+  Destination Clock: clock rising
+
+  Data Path: reset to mux_13
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            48   1.228   2.150  reset_IBUF (reset_IBUF)
+     LUT4:I0->O           14   0.757   1.187  _n0038 (_n0038)
+     FDE:CE                    0.636          mux_0
+    ----------------------------------------
+    Total                      5.958ns (2.621ns logic, 3.337ns route)
+                                       (44.0% logic, 56.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 12 / 12
+-------------------------------------------------------------------------
+Offset:              8.092ns (Levels of Logic = 1)
+  Source:            segment_5 (FF)
+  Destination:       segmentos<5> (PAD)
+  Source Clock:      clock rising
+
+  Data Path: segment_5 to segmentos<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              3   0.455   0.907  segment_5 (segment_5)
+     OBUF:I->O                 6.730          segmentos_5_OBUF (segmentos<5>)
+    ----------------------------------------
+    Total                      8.092ns (7.185ns logic, 0.907ns route)
+                                       (88.8% logic, 11.2% route)
+
+=========================================================================
+CPU : 2.89 / 3.08 s | Elapsed : 3.00 / 3.00 s
+ 
+--> 
+
+Total memory usage is 180500 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

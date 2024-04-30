@@ -1,0 +1,23 @@
+Release 7.1.03i ngdbuild H.41
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd "c:\users\felipe\desktop\p1 -
+micro\projeto/_ngo" -nt timestamp -uc projeto.ucf -p xc3s500e-fg320-4
+projeto.ngc projeto.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/P1 - Micro/projeto/projeto.ngc' ...
+
+Applying constraints in "projeto.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 107896 kilobytes
+
+Writing NGD file "projeto.ngd" ...
+
+Writing NGDBUILD log file "projeto.bld"...

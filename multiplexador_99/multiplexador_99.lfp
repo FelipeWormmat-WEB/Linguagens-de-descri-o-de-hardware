@@ -1,0 +1,20 @@
+# begin LFP file C:\Users\Felipe\Desktop\multiplexador_99\multiplexador_99.lfp
+designfile multiplexador_99.vhd
+parttype xc3s500e-4-fg320
+bus_delimiter -1;
+set_busdelim_onsave 1;
+IO_GROUP "segmentos" IO_GROUP="multiplexador_99" ;
+IO_GROUP "display" IO_GROUP="multiplexador_99" ;
+INST "multiplexador_99" COLOR=15  ;
+NET "segmentos<7>" IO_GROUP="segmentos"  ;
+NET "segmentos<6>" IO_GROUP="segmentos"  ;
+NET "segmentos<5>" IO_GROUP="segmentos"  ;
+NET "segmentos<4>" IO_GROUP="segmentos"  ;
+NET "segmentos<3>" IO_GROUP="segmentos"  ;
+NET "segmentos<2>" IO_GROUP="segmentos"  ;
+NET "segmentos<1>" IO_GROUP="segmentos"  ;
+NET "segmentos<0>" IO_GROUP="segmentos"  ;
+NET "display<3>" IO_GROUP="display"  ;
+NET "display<2>" IO_GROUP="display"  ;
+NET "display<1>" IO_GROUP="display"  ;
+NET "display<0>" IO_GROUP="display"  ;

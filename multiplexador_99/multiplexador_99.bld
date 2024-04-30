@@ -1,0 +1,25 @@
+Release 7.1.03i ngdbuild H.41
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\multiplexador_99/_ngo -nt timestamp -uc
+multiplexador_99.ucf -p xc3s500e-fg320-4 multiplexador_99.ngc
+multiplexador_99.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.ngc'
+...
+
+Applying constraints in "multiplexador_99.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 107964 kilobytes
+
+Writing NGD file "multiplexador_99.ngd" ...
+
+Writing NGDBUILD log file "multiplexador_99.bld"...

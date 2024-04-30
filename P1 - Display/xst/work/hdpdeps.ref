@@ -1,0 +1,9 @@
+V2 3
+FL "C:/Users/EG/OneDrive/Faculdade/S13/Linguagens e Descrição de Hardware/Aula 03/P1 - Display/projeto.vhd" 2024/03/20.20:08:24 H.41
+EN work/PROJETO 1710976107 \
+      FL "C:/Users/EG/OneDrive/Faculdade/S13/Linguagens e Descrição de Hardware/Aula 03/P1 - Display/projeto.vhd" \
+      PB ieee/STD_LOGIC_1164 1106404628 PB ieee/STD_LOGIC_ARITH 1106404630 \
+      PB ieee/STD_LOGIC_UNSIGNED 1106404634
+AR work/PROJETO/BEHAVIORAL 1710976108 \
+      FL "C:/Users/EG/OneDrive/Faculdade/S13/Linguagens e Descrição de Hardware/Aula 03/P1 - Display/projeto.vhd" \
+      EN work/PROJETO 1710976107

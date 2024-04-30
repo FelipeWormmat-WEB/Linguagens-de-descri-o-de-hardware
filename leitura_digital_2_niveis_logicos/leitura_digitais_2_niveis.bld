@@ -1,0 +1,26 @@
+Release 7.1.03i ngdbuild H.41
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\leitura_digital_2_niveis_logicos/_ngo -nt timestamp -uc
+leitura_digitais_2_niveis.ucf -p xc3s500e-fg320-4 leitura_digitais_2_niveis.ngc
+leitura_digitais_2_niveis.ngd 
+
+Reading NGO file
+'C:/Users/Felipe/Desktop/leitura_digital_2_niveis_logicos/leitura_digitais_2_niv
+eis.ngc' ...
+
+Applying constraints in "leitura_digitais_2_niveis.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 108668 kilobytes
+
+Writing NGD file "leitura_digitais_2_niveis.ngd" ...
+
+Writing NGDBUILD log file "leitura_digitais_2_niveis.bld"...

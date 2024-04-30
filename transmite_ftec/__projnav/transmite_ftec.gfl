@@ -1,0 +1,672 @@
+# xst flow : RunXST
+transmite_ftec_summary.html
+# xst flow : RunXST
+transmite_ftec_summary.html
+# ISim flow : Creating project file
+transmite_ftec_stx.prj
+transmite_ftec.isim_stx_prj
+work
+# ISim : Check Syntax for Simulation
+*.auxlib
+isim
+isim_temp
+xilinxsim.ini
+transmite_ftec.isim_stx_sim
+# ISim flow : Creating project file
+projeto_stx.prj
+projeto.isim_stx_prj
+work
+# ISim : Check Syntax for Simulation
+*.auxlib
+isim
+isim_temp
+xilinxsim.ini
+projeto.isim_stx_sim
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\transmite_ftec/_ngo"
+projeto.ngd
+projeto_ngdbuild.nav
+projeto.bld
+.untf
+projeto.cmd_log
+# Create Timing Constraints
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\transmite_ftec/_ngo"
+projeto.ngd
+projeto_ngdbuild.nav
+projeto.bld
+projeto.ucf.untf
+projeto.cmd_log
+# Implementation : Map
+projeto_summary.html
+# Implementation : Map
+projeto_map.ncd
+projeto.ngm
+projeto.pcf
+projeto.nc1
+projeto.mrp
+projeto_map.mrp
+projeto.mdf
+projeto.cmd_log
+MAP_NO_GUIDE_FILE_CPF "projeto"
+projeto_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+projeto.twr
+projeto.twx
+projeto.tsi
+projeto.cmd_log
+# Implementation : Place & Route
+projeto_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+projeto.ncd
+projeto.par
+projeto.pad
+projeto_pad.txt
+projeto_pad.csv
+projeto.pad_txt
+projeto.dly
+reportgen.log
+projeto.xpi
+projeto.grf
+projeto.itr
+projeto_last_par.ncd
+projeto.placed_ncd_tracker
+projeto.routed_ncd_tracker
+projeto.cmd_log
+PAR_NO_GUIDE_FILE_CPF "projeto"
+# Generate Programming File
+__projnav/projeto_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+projeto.ut
+# Generate Programming File
+projeto.bgn
+projeto.rbt
+projeto.ll
+projeto.msk
+projeto.drc
+projeto.nky
+projeto.bit
+projeto.bin
+projeto.isc
+projeto.cmd_log
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# ISim flow : Creating project file
+projeto_stx.prj
+projeto.isim_stx_prj
+work
+# ISim : Check Syntax for Simulation
+*.auxlib
+isim
+isim_temp
+xilinxsim.ini
+projeto.isim_stx_sim
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\transmite_ftec/_ngo"
+projeto.ngd
+projeto_ngdbuild.nav
+projeto.bld
+projeto.ucf.untf
+projeto.cmd_log
+# Implementation : Map
+projeto_summary.html
+# Implementation : Map
+projeto_map.ncd
+projeto.ngm
+projeto.pcf
+projeto.nc1
+projeto.mrp
+projeto_map.mrp
+projeto.mdf
+projeto.cmd_log
+MAP_NO_GUIDE_FILE_CPF "projeto"
+projeto_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+projeto.twr
+projeto.twx
+projeto.tsi
+projeto.cmd_log
+# Implementation : Place & Route
+projeto_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+projeto.ncd
+projeto.par
+projeto.pad
+projeto_pad.txt
+projeto_pad.csv
+projeto.pad_txt
+projeto.dly
+reportgen.log
+projeto.xpi
+projeto.grf
+projeto.itr
+projeto_last_par.ncd
+projeto.placed_ncd_tracker
+projeto.routed_ncd_tracker
+projeto.cmd_log
+PAR_NO_GUIDE_FILE_CPF "projeto"
+# Generate Programming File
+__projnav/projeto_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+projeto.ut
+# Generate Programming File
+projeto.bgn
+projeto.rbt
+projeto.ll
+projeto.msk
+projeto.drc
+projeto.nky
+projeto.bit
+projeto.bin
+projeto.isc
+projeto.cmd_log
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\transmite_ftec/_ngo"
+projeto.ngd
+projeto_ngdbuild.nav
+projeto.bld
+projeto.ucf.untf
+projeto.cmd_log
+# Implementation : Map
+projeto_summary.html
+# Implementation : Map
+projeto_map.ncd
+projeto.ngm
+projeto.pcf
+projeto.nc1
+projeto.mrp
+projeto_map.mrp
+projeto.mdf
+projeto.cmd_log
+MAP_NO_GUIDE_FILE_CPF "projeto"
+projeto_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+projeto.twr
+projeto.twx
+projeto.tsi
+projeto.cmd_log
+# Implementation : Place & Route
+projeto_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+projeto.ncd
+projeto.par
+projeto.pad
+projeto_pad.txt
+projeto_pad.csv
+projeto.pad_txt
+projeto.dly
+reportgen.log
+projeto.xpi
+projeto.grf
+projeto.itr
+projeto_last_par.ncd
+projeto.placed_ncd_tracker
+projeto.routed_ncd_tracker
+projeto.cmd_log
+PAR_NO_GUIDE_FILE_CPF "projeto"
+# Generate Programming File
+__projnav/projeto_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+projeto.ut
+# Generate Programming File
+projeto.bgn
+projeto.rbt
+projeto.ll
+projeto.msk
+projeto.drc
+projeto.nky
+projeto.bit
+projeto.bin
+projeto.isc
+projeto.cmd_log
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\transmite_ftec/_ngo"
+projeto.ngd
+projeto_ngdbuild.nav
+projeto.bld
+projeto.ucf.untf
+projeto.cmd_log
+# Implementation : Map
+projeto_summary.html
+# Implementation : Map
+projeto_map.ncd
+projeto.ngm
+projeto.pcf
+projeto.nc1
+projeto.mrp
+projeto_map.mrp
+projeto.mdf
+projeto.cmd_log
+MAP_NO_GUIDE_FILE_CPF "projeto"
+projeto_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+projeto.twr
+projeto.twx
+projeto.tsi
+projeto.cmd_log
+# Implementation : Place & Route
+projeto_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+projeto.ncd
+projeto.par
+projeto.pad
+projeto_pad.txt
+projeto_pad.csv
+projeto.pad_txt
+projeto.dly
+reportgen.log
+projeto.xpi
+projeto.grf
+projeto.itr
+projeto_last_par.ncd
+projeto.placed_ncd_tracker
+projeto.routed_ncd_tracker
+projeto.cmd_log
+PAR_NO_GUIDE_FILE_CPF "projeto"
+# Generate Programming File
+__projnav/projeto_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+projeto.ut
+# Generate Programming File
+projeto.bgn
+projeto.rbt
+projeto.ll
+projeto.msk
+projeto.drc
+projeto.nky
+projeto.bit
+projeto.bin
+projeto.isc
+projeto.cmd_log
+# xst flow : RunXST
+projeto_summary.html
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\transmite_ftec/_ngo"
+projeto.ngd
+projeto_ngdbuild.nav
+projeto.bld
+projeto.ucf.untf
+projeto.cmd_log
+# Implementation : Map
+projeto_summary.html
+# Implementation : Map
+projeto_map.ncd
+projeto.ngm
+projeto.pcf
+projeto.nc1
+projeto.mrp
+projeto_map.mrp
+projeto.mdf
+projeto.cmd_log
+MAP_NO_GUIDE_FILE_CPF "projeto"
+projeto_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+projeto.twr
+projeto.twx
+projeto.tsi
+projeto.cmd_log
+# Implementation : Place & Route
+projeto_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+projeto.ncd
+projeto.par
+projeto.pad
+projeto_pad.txt
+projeto_pad.csv
+projeto.pad_txt
+projeto.dly
+reportgen.log
+projeto.xpi
+projeto.grf
+projeto.itr
+projeto_last_par.ncd
+projeto.placed_ncd_tracker
+projeto.routed_ncd_tracker
+projeto.cmd_log
+PAR_NO_GUIDE_FILE_CPF "projeto"
+# Generate Programming File
+__projnav/projeto_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+projeto.ut
+# Generate Programming File
+projeto.bgn
+projeto.rbt
+projeto.ll
+projeto.msk
+projeto.drc
+projeto.nky
+projeto.bit
+projeto.bin
+projeto.isc
+projeto.cmd_log
+# XST (Creating Lso File) : 
+projeto.lso
+# xst flow : RunXST
+projeto_summary.html
+# xst flow : RunXST
+projeto.syr
+projeto.prj
+projeto.sprj
+projeto.ana
+projeto.stx
+projeto.cmd_log
+projeto.ngc
+projeto.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\transmite_ftec/_ngo"
+projeto.ngd
+projeto_ngdbuild.nav
+projeto.bld
+projeto.ucf.untf
+projeto.cmd_log
+# Implementation : Map
+projeto_summary.html
+# Implementation : Map
+projeto_map.ncd
+projeto.ngm
+projeto.pcf
+projeto.nc1
+projeto.mrp
+projeto_map.mrp
+projeto.mdf
+projeto.cmd_log
+MAP_NO_GUIDE_FILE_CPF "projeto"
+projeto_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+projeto.twr
+projeto.twx
+projeto.tsi
+projeto.cmd_log
+# Implementation : Place & Route
+projeto_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+projeto.ncd
+projeto.par
+projeto.pad
+projeto_pad.txt
+projeto_pad.csv
+projeto.pad_txt
+projeto.dly
+reportgen.log
+projeto.xpi
+projeto.grf
+projeto.itr
+projeto_last_par.ncd
+projeto.placed_ncd_tracker
+projeto.routed_ncd_tracker
+projeto.cmd_log
+PAR_NO_GUIDE_FILE_CPF "projeto"
+# Generate Programming File
+__projnav/projeto_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+projeto.ut
+# Generate Programming File
+projeto.bgn
+projeto.rbt
+projeto.ll
+projeto.msk
+projeto.drc
+projeto.nky
+projeto.bit
+projeto.bin
+projeto.isc
+projeto.cmd_log
+# xst flow : RunXST
+projeto_summary.html

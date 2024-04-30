@@ -1,0 +1,170 @@
+Release 7.1.03i par H.41
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+DESKTOP-7V312RG::  Wed Mar 27 20:32:34 2024
+
+par -w -intstyle ise -ol std -t 1 leitura_digitais_2_niveis_map.ncd
+leitura_digitais_2_niveis.ncd leitura_digitais_2_niveis.pcf 
+
+
+Constraints file: leitura_digitais_2_niveis.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "leitura_digitais_2_niveis" is an NCD, version 3.1, device xc3s500e, package
+fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            3 out of 232     1%
+      Number of LOCed IBUFs            3 out of 3     100%
+
+   Number of External IOBs             5 out of 176     2%
+      Number of LOCed IOBs             5 out of 5     100%
+
+   Number of Slices                   31 out of 4656    1%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:98971a) REAL time: 2 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 3 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 3 secs 
+
+Phase 5.8
+...
+...
+Phase 5.8 (Checksum:996a9b) REAL time: 3 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 3 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 3 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 3 secs 
+
+Writing design to file leitura_digitais_2_niveis.ncd
+
+
+Total REAL time to Placer completion: 3 secs 
+Total CPU time to Placer completion: 3 secs 
+
+Starting Router
+
+Phase 1: 192 unrouted;       REAL time: 4 secs 
+
+Phase 2: 178 unrouted;       REAL time: 4 secs 
+
+Phase 3: 11 unrouted;       REAL time: 4 secs 
+
+Phase 4: 11 unrouted; (0)      REAL time: 4 secs 
+
+Phase 5: 11 unrouted; (0)      REAL time: 4 secs 
+
+Phase 6: 11 unrouted; (0)      REAL time: 4 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 4 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 4 secs 
+
+
+Total REAL time to Router completion: 4 secs 
+Total CPU time to Router completion: 4 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP | BUFGMUX_X2Y11| No   |   13 |  0.020     |  1.070      |
++---------------------+--------------+------+------+------------+-------------+
+
+
+   The Delay Summary Report
+
+
+The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:        1.208
+   The MAXIMUM PIN DELAY IS:                               5.009
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:   2.359
+
+   Listing Pin Delays by value: (nsec)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 6.00  d >= 6.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+          96          48          38           7           1           0
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 8.677ns    | 3    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 4 secs 
+
+Peak Memory Usage:  167 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file leitura_digitais_2_niveis.ncd
+
+
+
+PAR done!

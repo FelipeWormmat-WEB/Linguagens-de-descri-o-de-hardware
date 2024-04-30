@@ -1,0 +1,6 @@
+[Inputs]
+clock
+reset
+[Outputs]
+=porta[7:0]=
+[BiDir]

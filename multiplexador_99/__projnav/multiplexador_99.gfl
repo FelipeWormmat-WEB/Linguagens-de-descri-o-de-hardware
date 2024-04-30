@@ -1,0 +1,750 @@
+# ISim flow : Creating project file
+multiplexador_99_stx.prj
+multiplexador_99.isim_stx_prj
+work
+# ISim : Check Syntax for Simulation
+*.auxlib
+isim
+isim_temp
+xilinxsim.ini
+multiplexador_99.isim_stx_sim
+# ISim flow : Creating project file
+multiplexador_99_stx.prj
+multiplexador_99.isim_stx_prj
+work
+# ISim : Check Syntax for Simulation
+*.auxlib
+isim
+isim_temp
+xilinxsim.ini
+multiplexador_99.isim_stx_sim
+# XST (Creating Lso File) : 
+multiplexador_99.lso
+# xst flow : RunXST
+multiplexador_99_summary.html
+# xst flow : RunXST
+multiplexador_99.syr
+multiplexador_99.prj
+multiplexador_99.sprj
+multiplexador_99.ana
+multiplexador_99.stx
+multiplexador_99.cmd_log
+multiplexador_99.ngc
+multiplexador_99.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"d:\vhdl_2024\multiplexador_99/_ngo"
+multiplexador_99.ngd
+multiplexador_99_ngdbuild.nav
+multiplexador_99.bld
+.untf
+multiplexador_99.cmd_log
+# Create Timing Constraints
+# ISim flow : Creating project file
+multiplexador_99_stx.prj
+multiplexador_99.isim_stx_prj
+work
+# ISim : Check Syntax for Simulation
+*.auxlib
+isim
+isim_temp
+xilinxsim.ini
+multiplexador_99.isim_stx_sim
+# XST (Creating Lso File) : 
+multiplexador_99.lso
+# xst flow : RunXST
+multiplexador_99_summary.html
+# xst flow : RunXST
+multiplexador_99.syr
+multiplexador_99.prj
+multiplexador_99.sprj
+multiplexador_99.ana
+multiplexador_99.stx
+multiplexador_99.cmd_log
+multiplexador_99.ngc
+multiplexador_99.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"d:\vhdl_2024\multiplexador_99/_ngo"
+multiplexador_99.ngd
+multiplexador_99_ngdbuild.nav
+multiplexador_99.bld
+multiplexador_99.ucf.untf
+multiplexador_99.cmd_log
+# Create Timing Constraints
+# ISim flow : Creating project file
+multiplexador_99_stx.prj
+multiplexador_99.isim_stx_prj
+work
+# ISim : Check Syntax for Simulation
+*.auxlib
+isim
+isim_temp
+xilinxsim.ini
+multiplexador_99.isim_stx_sim
+# XST (Creating Lso File) : 
+multiplexador_99.lso
+# xst flow : RunXST
+multiplexador_99_summary.html
+# xst flow : RunXST
+multiplexador_99.syr
+multiplexador_99.prj
+multiplexador_99.sprj
+multiplexador_99.ana
+multiplexador_99.stx
+multiplexador_99.cmd_log
+multiplexador_99.ngc
+multiplexador_99.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"d:\vhdl_2024\multiplexador_99/_ngo"
+multiplexador_99.ngd
+multiplexador_99_ngdbuild.nav
+multiplexador_99.bld
+multiplexador_99.ucf.untf
+multiplexador_99.cmd_log
+# Create Timing Constraints
+# xst flow : RunXST
+multiplexador_99_summary.html
+# Assign Package Pins (Design Module)
+if
+ $IsCopy 
+
+            Xilinx::Dpm::dpm_flowUtilsFilesToDelete "DID_File"  "$HDLModule"
+         
+# ISim flow : Creating project file
+multiplexador_99_stx.prj
+multiplexador_99.isim_stx_prj
+work
+# ISim : Check Syntax for Simulation
+*.auxlib
+isim
+isim_temp
+xilinxsim.ini
+multiplexador_99.isim_stx_sim
+# XST (Creating Lso File) : 
+multiplexador_99.lso
+# xst flow : RunXST
+multiplexador_99_summary.html
+# xst flow : RunXST
+multiplexador_99.syr
+multiplexador_99.prj
+multiplexador_99.sprj
+multiplexador_99.ana
+multiplexador_99.stx
+multiplexador_99.cmd_log
+multiplexador_99.ngc
+multiplexador_99.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"d:\vhdl_2024\multiplexador_99/_ngo"
+multiplexador_99.ngd
+multiplexador_99_ngdbuild.nav
+multiplexador_99.bld
+multiplexador_99.ucf.untf
+multiplexador_99.cmd_log
+# Create Timing Constraints
+# xst flow : RunXST
+multiplexador_99_summary.html
+# XST (Creating Lso File) : 
+multiplexador_99.lso
+# xst flow : RunXST
+multiplexador_99_summary.html
+# xst flow : RunXST
+multiplexador_99.syr
+multiplexador_99.prj
+multiplexador_99.sprj
+multiplexador_99.ana
+multiplexador_99.stx
+multiplexador_99.cmd_log
+multiplexador_99.ngc
+multiplexador_99.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\multiplexador_99/_ngo"
+multiplexador_99.ngd
+multiplexador_99_ngdbuild.nav
+multiplexador_99.bld
+multiplexador_99.ucf.untf
+multiplexador_99.cmd_log
+# Implementation : Map
+multiplexador_99_summary.html
+# Implementation : Map
+multiplexador_99_map.ncd
+multiplexador_99.ngm
+multiplexador_99.pcf
+multiplexador_99.nc1
+multiplexador_99.mrp
+multiplexador_99_map.mrp
+multiplexador_99.mdf
+multiplexador_99.cmd_log
+MAP_NO_GUIDE_FILE_CPF "multiplexador_99"
+multiplexador_99_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+multiplexador_99.twr
+multiplexador_99.twx
+multiplexador_99.tsi
+multiplexador_99.cmd_log
+# Implementation : Place & Route
+multiplexador_99_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+multiplexador_99.ncd
+multiplexador_99.par
+multiplexador_99.pad
+multiplexador_99_pad.txt
+multiplexador_99_pad.csv
+multiplexador_99.pad_txt
+multiplexador_99.dly
+reportgen.log
+multiplexador_99.xpi
+multiplexador_99.grf
+multiplexador_99.itr
+multiplexador_99_last_par.ncd
+multiplexador_99.placed_ncd_tracker
+multiplexador_99.routed_ncd_tracker
+multiplexador_99.cmd_log
+PAR_NO_GUIDE_FILE_CPF "multiplexador_99"
+# Generate Programming File
+__projnav/multiplexador_99_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+multiplexador_99.ut
+# Generate Programming File
+multiplexador_99.bgn
+multiplexador_99.rbt
+multiplexador_99.ll
+multiplexador_99.msk
+multiplexador_99.drc
+multiplexador_99.nky
+multiplexador_99.bit
+multiplexador_99.bin
+multiplexador_99.isc
+multiplexador_99.cmd_log
+# XST (Creating Lso File) : 
+multiplexador_99.lso
+# xst flow : RunXST
+multiplexador_99_summary.html
+# xst flow : RunXST
+multiplexador_99.syr
+multiplexador_99.prj
+multiplexador_99.sprj
+multiplexador_99.ana
+multiplexador_99.stx
+multiplexador_99.cmd_log
+multiplexador_99.ngc
+multiplexador_99.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\multiplexador_99/_ngo"
+multiplexador_99.ngd
+multiplexador_99_ngdbuild.nav
+multiplexador_99.bld
+multiplexador_99.ucf.untf
+multiplexador_99.cmd_log
+# Implementation : Map
+multiplexador_99_summary.html
+# Implementation : Map
+multiplexador_99_map.ncd
+multiplexador_99.ngm
+multiplexador_99.pcf
+multiplexador_99.nc1
+multiplexador_99.mrp
+multiplexador_99_map.mrp
+multiplexador_99.mdf
+multiplexador_99.cmd_log
+MAP_NO_GUIDE_FILE_CPF "multiplexador_99"
+multiplexador_99_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+multiplexador_99.twr
+multiplexador_99.twx
+multiplexador_99.tsi
+multiplexador_99.cmd_log
+# Implementation : Place & Route
+multiplexador_99_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+multiplexador_99.ncd
+multiplexador_99.par
+multiplexador_99.pad
+multiplexador_99_pad.txt
+multiplexador_99_pad.csv
+multiplexador_99.pad_txt
+multiplexador_99.dly
+reportgen.log
+multiplexador_99.xpi
+multiplexador_99.grf
+multiplexador_99.itr
+multiplexador_99_last_par.ncd
+multiplexador_99.placed_ncd_tracker
+multiplexador_99.routed_ncd_tracker
+multiplexador_99.cmd_log
+PAR_NO_GUIDE_FILE_CPF "multiplexador_99"
+# Generate Programming File
+__projnav/multiplexador_99_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+multiplexador_99.ut
+# Generate Programming File
+multiplexador_99.bgn
+multiplexador_99.rbt
+multiplexador_99.ll
+multiplexador_99.msk
+multiplexador_99.drc
+multiplexador_99.nky
+multiplexador_99.bit
+multiplexador_99.bin
+multiplexador_99.isc
+multiplexador_99.cmd_log
+# XST (Creating Lso File) : 
+multiplexador_99.lso
+# xst flow : RunXST
+multiplexador_99_summary.html
+# xst flow : RunXST
+multiplexador_99.syr
+multiplexador_99.prj
+multiplexador_99.sprj
+multiplexador_99.ana
+multiplexador_99.stx
+multiplexador_99.cmd_log
+multiplexador_99.ngc
+multiplexador_99.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\multiplexador_99/_ngo"
+multiplexador_99.ngd
+multiplexador_99_ngdbuild.nav
+multiplexador_99.bld
+multiplexador_99.ucf.untf
+multiplexador_99.cmd_log
+# Implementation : Map
+multiplexador_99_summary.html
+# Implementation : Map
+multiplexador_99_map.ncd
+multiplexador_99.ngm
+multiplexador_99.pcf
+multiplexador_99.nc1
+multiplexador_99.mrp
+multiplexador_99_map.mrp
+multiplexador_99.mdf
+multiplexador_99.cmd_log
+MAP_NO_GUIDE_FILE_CPF "multiplexador_99"
+multiplexador_99_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+multiplexador_99.twr
+multiplexador_99.twx
+multiplexador_99.tsi
+multiplexador_99.cmd_log
+# Implementation : Place & Route
+multiplexador_99_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+multiplexador_99.ncd
+multiplexador_99.par
+multiplexador_99.pad
+multiplexador_99_pad.txt
+multiplexador_99_pad.csv
+multiplexador_99.pad_txt
+multiplexador_99.dly
+reportgen.log
+multiplexador_99.xpi
+multiplexador_99.grf
+multiplexador_99.itr
+multiplexador_99_last_par.ncd
+multiplexador_99.placed_ncd_tracker
+multiplexador_99.routed_ncd_tracker
+multiplexador_99.cmd_log
+PAR_NO_GUIDE_FILE_CPF "multiplexador_99"
+# Generate Programming File
+__projnav/multiplexador_99_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+multiplexador_99.ut
+# Generate Programming File
+multiplexador_99.bgn
+multiplexador_99.rbt
+multiplexador_99.ll
+multiplexador_99.msk
+multiplexador_99.drc
+multiplexador_99.nky
+multiplexador_99.bit
+multiplexador_99.bin
+multiplexador_99.isc
+multiplexador_99.cmd_log
+# XST (Creating Lso File) : 
+multiplexador_99.lso
+# xst flow : RunXST
+multiplexador_99_summary.html
+# xst flow : RunXST
+multiplexador_99.syr
+multiplexador_99.prj
+multiplexador_99.sprj
+multiplexador_99.ana
+multiplexador_99.stx
+multiplexador_99.cmd_log
+multiplexador_99.ngc
+multiplexador_99.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\multiplexador_99/_ngo"
+multiplexador_99.ngd
+multiplexador_99_ngdbuild.nav
+multiplexador_99.bld
+multiplexador_99.ucf.untf
+multiplexador_99.cmd_log
+# Implementation : Map
+multiplexador_99_summary.html
+# Implementation : Map
+multiplexador_99_map.ncd
+multiplexador_99.ngm
+multiplexador_99.pcf
+multiplexador_99.nc1
+multiplexador_99.mrp
+multiplexador_99_map.mrp
+multiplexador_99.mdf
+multiplexador_99.cmd_log
+MAP_NO_GUIDE_FILE_CPF "multiplexador_99"
+multiplexador_99_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+multiplexador_99.twr
+multiplexador_99.twx
+multiplexador_99.tsi
+multiplexador_99.cmd_log
+# Implementation : Place & Route
+multiplexador_99_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+multiplexador_99.ncd
+multiplexador_99.par
+multiplexador_99.pad
+multiplexador_99_pad.txt
+multiplexador_99_pad.csv
+multiplexador_99.pad_txt
+multiplexador_99.dly
+reportgen.log
+multiplexador_99.xpi
+multiplexador_99.grf
+multiplexador_99.itr
+multiplexador_99_last_par.ncd
+multiplexador_99.placed_ncd_tracker
+multiplexador_99.routed_ncd_tracker
+multiplexador_99.cmd_log
+PAR_NO_GUIDE_FILE_CPF "multiplexador_99"
+# Generate Programming File
+__projnav/multiplexador_99_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+multiplexador_99.ut
+# Generate Programming File
+multiplexador_99.bgn
+multiplexador_99.rbt
+multiplexador_99.ll
+multiplexador_99.msk
+multiplexador_99.drc
+multiplexador_99.nky
+multiplexador_99.bit
+multiplexador_99.bin
+multiplexador_99.isc
+multiplexador_99.cmd_log
+# XST (Creating Lso File) : 
+multiplexador_99.lso
+# xst flow : RunXST
+multiplexador_99_summary.html
+# xst flow : RunXST
+multiplexador_99.syr
+multiplexador_99.prj
+multiplexador_99.sprj
+multiplexador_99.ana
+multiplexador_99.stx
+multiplexador_99.cmd_log
+multiplexador_99.ngc
+multiplexador_99.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\multiplexador_99/_ngo"
+multiplexador_99.ngd
+multiplexador_99_ngdbuild.nav
+multiplexador_99.bld
+multiplexador_99.ucf.untf
+multiplexador_99.cmd_log
+# Implementation : Map
+multiplexador_99_summary.html
+# Implementation : Map
+multiplexador_99_map.ncd
+multiplexador_99.ngm
+multiplexador_99.pcf
+multiplexador_99.nc1
+multiplexador_99.mrp
+multiplexador_99_map.mrp
+multiplexador_99.mdf
+multiplexador_99.cmd_log
+MAP_NO_GUIDE_FILE_CPF "multiplexador_99"
+multiplexador_99_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+multiplexador_99.twr
+multiplexador_99.twx
+multiplexador_99.tsi
+multiplexador_99.cmd_log
+# Implementation : Place & Route
+multiplexador_99_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+multiplexador_99.ncd
+multiplexador_99.par
+multiplexador_99.pad
+multiplexador_99_pad.txt
+multiplexador_99_pad.csv
+multiplexador_99.pad_txt
+multiplexador_99.dly
+reportgen.log
+multiplexador_99.xpi
+multiplexador_99.grf
+multiplexador_99.itr
+multiplexador_99_last_par.ncd
+multiplexador_99.placed_ncd_tracker
+multiplexador_99.routed_ncd_tracker
+multiplexador_99.cmd_log
+PAR_NO_GUIDE_FILE_CPF "multiplexador_99"
+# Generate Programming File
+__projnav/multiplexador_99_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+multiplexador_99.ut
+# Generate Programming File
+multiplexador_99.bgn
+multiplexador_99.rbt
+multiplexador_99.ll
+multiplexador_99.msk
+multiplexador_99.drc
+multiplexador_99.nky
+multiplexador_99.bit
+multiplexador_99.bin
+multiplexador_99.isc
+multiplexador_99.cmd_log
+# Create Timing Constraints
+# Assign Package Pins (Design Module)
+if
+ $IsCopy 
+
+            Xilinx::Dpm::dpm_flowUtilsFilesToDelete "DID_File"  "$HDLModule"
+         
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\multiplexador_99/_ngo"
+multiplexador_99.ngd
+multiplexador_99_ngdbuild.nav
+multiplexador_99.bld
+multiplexador_99.ucf.untf
+multiplexador_99.cmd_log
+# Implementation : Map
+multiplexador_99_summary.html
+# Implementation : Map
+multiplexador_99_map.ncd
+multiplexador_99.ngm
+multiplexador_99.pcf
+multiplexador_99.nc1
+multiplexador_99.mrp
+multiplexador_99_map.mrp
+multiplexador_99.mdf
+multiplexador_99.cmd_log
+MAP_NO_GUIDE_FILE_CPF "multiplexador_99"
+multiplexador_99_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+multiplexador_99.twr
+multiplexador_99.twx
+multiplexador_99.tsi
+multiplexador_99.cmd_log
+# Implementation : Place & Route
+multiplexador_99_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+multiplexador_99.ncd
+multiplexador_99.par
+multiplexador_99.pad
+multiplexador_99_pad.txt
+multiplexador_99_pad.csv
+multiplexador_99.pad_txt
+multiplexador_99.dly
+reportgen.log
+multiplexador_99.xpi
+multiplexador_99.grf
+multiplexador_99.itr
+multiplexador_99_last_par.ncd
+multiplexador_99.placed_ncd_tracker
+multiplexador_99.routed_ncd_tracker
+multiplexador_99.cmd_log
+PAR_NO_GUIDE_FILE_CPF "multiplexador_99"
+# Generate Programming File
+__projnav/multiplexador_99_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+multiplexador_99.ut
+# Generate Programming File
+multiplexador_99.bgn
+multiplexador_99.rbt
+multiplexador_99.ll
+multiplexador_99.msk
+multiplexador_99.drc
+multiplexador_99.nky
+multiplexador_99.bit
+multiplexador_99.bin
+multiplexador_99.isc
+multiplexador_99.cmd_log
+# XST (Creating Lso File) : 
+multiplexador_99.lso
+# xst flow : RunXST
+multiplexador_99_summary.html
+# xst flow : RunXST
+multiplexador_99.syr
+multiplexador_99.prj
+multiplexador_99.sprj
+multiplexador_99.ana
+multiplexador_99.stx
+multiplexador_99.cmd_log
+multiplexador_99.ngc
+multiplexador_99.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\multiplexador_99/_ngo"
+multiplexador_99.ngd
+multiplexador_99_ngdbuild.nav
+multiplexador_99.bld
+multiplexador_99.ucf.untf
+multiplexador_99.cmd_log
+# Implementation : Map
+multiplexador_99_summary.html
+# Implementation : Map
+multiplexador_99_map.ncd
+multiplexador_99.ngm
+multiplexador_99.pcf
+multiplexador_99.nc1
+multiplexador_99.mrp
+multiplexador_99_map.mrp
+multiplexador_99.mdf
+multiplexador_99.cmd_log
+MAP_NO_GUIDE_FILE_CPF "multiplexador_99"
+multiplexador_99_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+multiplexador_99.twr
+multiplexador_99.twx
+multiplexador_99.tsi
+multiplexador_99.cmd_log
+# Implementation : Place & Route
+multiplexador_99_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+multiplexador_99.ncd
+multiplexador_99.par
+multiplexador_99.pad
+multiplexador_99_pad.txt
+multiplexador_99_pad.csv
+multiplexador_99.pad_txt
+multiplexador_99.dly
+reportgen.log
+multiplexador_99.xpi
+multiplexador_99.grf
+multiplexador_99.itr
+multiplexador_99_last_par.ncd
+multiplexador_99.placed_ncd_tracker
+multiplexador_99.routed_ncd_tracker
+multiplexador_99.cmd_log
+PAR_NO_GUIDE_FILE_CPF "multiplexador_99"
+# Generate Programming File
+__projnav/multiplexador_99_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+multiplexador_99.ut
+# Generate Programming File
+multiplexador_99.bgn
+multiplexador_99.rbt
+multiplexador_99.ll
+multiplexador_99.msk
+multiplexador_99.drc
+multiplexador_99.nky
+multiplexador_99.bit
+multiplexador_99.bin
+multiplexador_99.isc
+multiplexador_99.cmd_log
+# XST (Creating Lso File) : 
+multiplexador_99.lso
+# xst flow : RunXST
+multiplexador_99_summary.html
+# xst flow : RunXST
+multiplexador_99.syr
+multiplexador_99.prj
+multiplexador_99.sprj
+multiplexador_99.ana
+multiplexador_99.stx
+multiplexador_99.cmd_log
+multiplexador_99.ngc
+multiplexador_99.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\users\felipe\desktop\multiplexador_99/_ngo"
+multiplexador_99.ngd
+multiplexador_99_ngdbuild.nav
+multiplexador_99.bld
+multiplexador_99.ucf.untf
+multiplexador_99.cmd_log
+# Implementation : Map
+multiplexador_99_summary.html
+# Implementation : Map
+multiplexador_99_map.ncd
+multiplexador_99.ngm
+multiplexador_99.pcf
+multiplexador_99.nc1
+multiplexador_99.mrp
+multiplexador_99_map.mrp
+multiplexador_99.mdf
+multiplexador_99.cmd_log
+MAP_NO_GUIDE_FILE_CPF "multiplexador_99"
+multiplexador_99_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+multiplexador_99.twr
+multiplexador_99.twx
+multiplexador_99.tsi
+multiplexador_99.cmd_log
+# Implementation : Place & Route
+multiplexador_99_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+multiplexador_99.ncd
+multiplexador_99.par
+multiplexador_99.pad
+multiplexador_99_pad.txt
+multiplexador_99_pad.csv
+multiplexador_99.pad_txt
+multiplexador_99.dly
+reportgen.log
+multiplexador_99.xpi
+multiplexador_99.grf
+multiplexador_99.itr
+multiplexador_99_last_par.ncd
+multiplexador_99.placed_ncd_tracker
+multiplexador_99.routed_ncd_tracker
+multiplexador_99.cmd_log
+PAR_NO_GUIDE_FILE_CPF "multiplexador_99"
+# Generate Programming File
+__projnav/multiplexador_99_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+multiplexador_99.ut
+# Generate Programming File
+multiplexador_99.bgn
+multiplexador_99.rbt
+multiplexador_99.ll
+multiplexador_99.msk
+multiplexador_99.drc
+multiplexador_99.nky
+multiplexador_99.bit
+multiplexador_99.bin
+multiplexador_99.isc
+multiplexador_99.cmd_log

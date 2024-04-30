@@ -1,0 +1,3705 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax for Simulation".
+
+Compiling vhdl file "d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd" in Library isim_temp.
+Entity <multiplexador_99> compiled.
+ERROR:HDLParsers:3312 - "d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd" Line 97. Undefined symbol 'mux'.
+ERROR:HDLParsers:1209 - "d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd" Line 97. mux: Undefined symbol (last report in this block)
+Parsing "multiplexador_99_stx.prj": 0.05
+ERROR: vhpcomp failed
+Process "Check Syntax for Simulation" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax for Simulation".
+
+Compiling vhdl file "d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd" in Library isim_temp.
+Entity <multiplexador_99> compiled.
+Entity <multiplexador_99> (Architecture <Behavioral>) compiled.
+Parsing "multiplexador_99_stx.prj": 0.01
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd" in Library work.
+Entity <multiplexador_99> compiled.
+Entity <multiplexador_99> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <multiplexador_99> (Architecture <Behavioral>).
+INFO:Xst:1304 - Contents of register <mux> in unit <multiplexador_99> never changes during circuit operation. The register is replaced by logic.
+Entity <multiplexador_99> analyzed. Unit <multiplexador_99> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+INFO:Xst:1304 - Contents of register <transistor> in unit <multiplexador_99> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <segment> in unit <multiplexador_99> never changes during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <multiplexador_99>.
+    Related source file is "d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <$n0024>.
+    Found 4-bit adder for signal <$n0025> created at line 96.
+    Found 26-bit up counter for signal <count>.
+    Found 4-bit up counter for signal <dezena>.
+    Found 4-bit register for signal <unidade>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 Multiplexer(s).
+Unit <multiplexador_99> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplexador_99> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplexador_99, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of bonded IOBs:                 14  out of    232     6%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\vhdl_2024\multiplexador_99/_ngo -nt
+timestamp -i -p xc3s500e-fg320-4 multiplexador_99.ngc multiplexador_99.ngd 
+
+Reading NGO file 'd:/vhdl_2024/multiplexador_99/multiplexador_99.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "multiplexador_99.ngd" ...
+
+Writing NGDBUILD log file "multiplexador_99.bld"...
+
+NGDBUILD done.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax for Simulation".
+
+Compiling vhdl file "d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd" in Library isim_temp.
+Entity <multiplexador_99> compiled.
+Entity <multiplexador_99> (Architecture <behavioral>) compiled.
+Parsing "multiplexador_99_stx.prj": 0.02
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd" in Library work.
+Entity <multiplexador_99> compiled.
+Entity <multiplexador_99> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <multiplexador_99> (Architecture <behavioral>).
+INFO:Xst:1304 - Contents of register <mux> in unit <multiplexador_99> never changes during circuit operation. The register is replaced by logic.
+Entity <multiplexador_99> analyzed. Unit <multiplexador_99> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+INFO:Xst:1304 - Contents of register <transistor> in unit <multiplexador_99> never changes during circuit operation. The register is replaced by logic.
+INFO:Xst:1304 - Contents of register <segment> in unit <multiplexador_99> never changes during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <multiplexador_99>.
+    Related source file is "d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <$n0024>.
+    Found 4-bit adder for signal <$n0025> created at line 95.
+    Found 26-bit up counter for signal <count>.
+    Found 4-bit up counter for signal <dezena>.
+    Found 4-bit register for signal <unidade>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 Multiplexer(s).
+Unit <multiplexador_99> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplexador_99> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplexador_99, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of bonded IOBs:                 14  out of    232     6%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\vhdl_2024\multiplexador_99/_ngo -nt
+timestamp -uc multiplexador_99.ucf -p xc3s500e-fg320-4 multiplexador_99.ngc
+multiplexador_99.ngd 
+
+Reading NGO file 'd:/vhdl_2024/multiplexador_99/multiplexador_99.ngc' ...
+
+Applying constraints in "multiplexador_99.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "multiplexador_99.ngd" ...
+
+Writing NGDBUILD log file "multiplexador_99.bld"...
+
+NGDBUILD done.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax for Simulation".
+
+Compiling vhdl file "d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd" in Library isim_temp.
+Entity <multiplexador_99> compiled.
+Entity <multiplexador_99> (Architecture <behavioral>) compiled.
+Parsing "multiplexador_99_stx.prj": 0.02
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd" in Library work.
+Entity <multiplexador_99> compiled.
+Entity <multiplexador_99> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <multiplexador_99> (Architecture <behavioral>).
+Entity <multiplexador_99> analyzed. Unit <multiplexador_99> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <multiplexador_99>.
+    Related source file is "d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <$n0026>.
+    Found 4-bit adder for signal <$n0029> created at line 92.
+    Found 26-bit up counter for signal <count>.
+    Found 4-bit up counter for signal <dezena>.
+    Found 14-bit up counter for signal <mux>.
+    Found 8-bit register for signal <segment>.
+    Found 4-bit register for signal <transistor>.
+    Found 4-bit register for signal <unidade>.
+    Summary:
+	inferred   3 Counter(s).
+	inferred  12 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 Multiplexer(s).
+Unit <multiplexador_99> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 4-bit adder                       : 1
+# Counters                         : 3
+ 14-bit up counter                 : 1
+ 26-bit up counter                 : 1
+ 4-bit up counter                  : 1
+# Registers                        : 3
+ 4-bit register                    : 2
+ 8-bit register                    : 1
+# Multiplexers                     : 1
+ 4-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplexador_99> ...
+WARNING:Xst:1293 - FF/Latch  <transistor_3> has a constant value of 1 in block <multiplexador_99>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <transistor_2> has a constant value of 1 in block <multiplexador_99>.
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplexador_99, actual ratio is 1.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      65  out of   4656     1%  
+ Number of Slice Flip Flops:            58  out of   9312     0%  
+ Number of 4 input LUTs:               124  out of   9312     1%  
+ Number of bonded IOBs:                 14  out of    232     6%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 58    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 9.661ns (Maximum Frequency: 103.509MHz)
+   Minimum input arrival time before clock: 5.941ns
+   Maximum output required time after clock: 8.062ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\vhdl_2024\multiplexador_99/_ngo -nt
+timestamp -uc multiplexador_99.ucf -p xc3s500e-fg320-4 multiplexador_99.ngc
+multiplexador_99.ngd 
+
+Reading NGO file 'd:/vhdl_2024/multiplexador_99/multiplexador_99.ngc' ...
+
+Applying constraints in "multiplexador_99.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "multiplexador_99.ngd" ...
+
+Writing NGDBUILD log file "multiplexador_99.bld"...
+
+NGDBUILD done.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax for Simulation".
+
+Compiling vhdl file "d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd" in Library isim_temp.
+Entity <multiplexador_99> compiled.
+Entity <multiplexador_99> (Architecture <behavioral>) compiled.
+Parsing "multiplexador_99_stx.prj": 0.05
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd" in Library work.
+Entity <multiplexador_99> compiled.
+Entity <multiplexador_99> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <multiplexador_99> (Architecture <behavioral>).
+Entity <multiplexador_99> analyzed. Unit <multiplexador_99> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <multiplexador_99>.
+    Related source file is "d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <$n0026>.
+    Found 4-bit adder for signal <$n0029> created at line 93.
+    Found 26-bit up counter for signal <count>.
+    Found 4-bit up counter for signal <dezena>.
+    Found 14-bit up counter for signal <mux>.
+    Found 8-bit register for signal <segment>.
+    Found 4-bit register for signal <transistor>.
+    Found 4-bit register for signal <unidade>.
+    Summary:
+	inferred   3 Counter(s).
+	inferred  12 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 Multiplexer(s).
+Unit <multiplexador_99> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 4-bit adder                       : 1
+# Counters                         : 3
+ 14-bit up counter                 : 1
+ 26-bit up counter                 : 1
+ 4-bit up counter                  : 1
+# Registers                        : 3
+ 4-bit register                    : 2
+ 8-bit register                    : 1
+# Multiplexers                     : 1
+ 4-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplexador_99> ...
+WARNING:Xst:1293 - FF/Latch  <transistor_3> has a constant value of 1 in block <multiplexador_99>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <transistor_2> has a constant value of 1 in block <multiplexador_99>.
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplexador_99, actual ratio is 1.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      65  out of   4656     1%  
+ Number of Slice Flip Flops:            58  out of   9312     0%  
+ Number of 4 input LUTs:               124  out of   9312     1%  
+ Number of bonded IOBs:                 14  out of    232     6%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 58    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 9.661ns (Maximum Frequency: 103.509MHz)
+   Minimum input arrival time before clock: 5.941ns
+   Maximum output required time after clock: 8.062ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd d:\vhdl_2024\multiplexador_99/_ngo -nt
+timestamp -uc multiplexador_99.ucf -p xc3s500e-fg320-4 multiplexador_99.ngc
+multiplexador_99.ngd 
+
+Reading NGO file 'd:/vhdl_2024/multiplexador_99/multiplexador_99.ngc' ...
+
+Applying constraints in "multiplexador_99.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "multiplexador_99.ngd" ...
+
+Writing NGDBUILD log file "multiplexador_99.bld"...
+
+NGDBUILD done.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3215 - Unit work/MULTIPLEXADOR_99 is now defined in a different file: was d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd, now is C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd
+WARNING:HDLParsers:3215 - Unit work/MULTIPLEXADOR_99/BEHAVIORAL is now defined in a different file: was d:/vhdl_2024/multiplexador_99/multiplexador_99.vhd, now is C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd
+Compiling vhdl file "C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd" in Library work.
+Entity <multiplexador_99> compiled.
+Entity <multiplexador_99> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <multiplexador_99> (Architecture <behavioral>).
+Entity <multiplexador_99> analyzed. Unit <multiplexador_99> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <multiplexador_99>.
+    Related source file is "C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <$n0026>.
+    Found 4-bit adder for signal <$n0029> created at line 93.
+    Found 26-bit up counter for signal <count>.
+    Found 4-bit up counter for signal <dezena>.
+    Found 14-bit up counter for signal <mux>.
+    Found 8-bit register for signal <segment>.
+    Found 4-bit register for signal <transistor>.
+    Found 4-bit register for signal <unidade>.
+    Summary:
+	inferred   3 Counter(s).
+	inferred  12 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 Multiplexer(s).
+Unit <multiplexador_99> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 4-bit adder                       : 1
+# Counters                         : 3
+ 14-bit up counter                 : 1
+ 26-bit up counter                 : 1
+ 4-bit up counter                  : 1
+# Registers                        : 3
+ 4-bit register                    : 2
+ 8-bit register                    : 1
+# Multiplexers                     : 1
+ 4-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplexador_99> ...
+WARNING:Xst:1293 - FF/Latch  <transistor_3> has a constant value of 1 in block <multiplexador_99>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <transistor_2> has a constant value of 1 in block <multiplexador_99>.
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplexador_99, actual ratio is 1.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      65  out of   4656     1%  
+ Number of Slice Flip Flops:            58  out of   9312     0%  
+ Number of 4 input LUTs:               124  out of   9312     1%  
+ Number of bonded IOBs:                 14  out of    232     6%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 58    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 9.691ns (Maximum Frequency: 103.189MHz)
+   Minimum input arrival time before clock: 5.941ns
+   Maximum output required time after clock: 8.062ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\multiplexador_99/_ngo -nt timestamp -uc
+multiplexador_99.ucf -p xc3s500e-fg320-4 multiplexador_99.ngc
+multiplexador_99.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.ngc'
+...
+
+Applying constraints in "multiplexador_99.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "multiplexador_99.ngd" ...
+
+Writing NGDBUILD log file "multiplexador_99.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          58 out of   9,312    1%
+  Number of 4 input LUTs:             119 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                           65 out of   4,656    1%
+    Number of Slices containing only related logic:      65 out of      65  100%
+    Number of Slices containing unrelated logic:          0 out of      65    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            124 out of   9,312    1%
+  Number used as logic:                119
+  Number used as a route-thru:           5
+  Number of bonded IOBs:               14 out of     232    6%
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  1,424
+Additional JTAG gate count for IOBs:  672
+Peak Memory Usage:  191 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "multiplexador_99_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: multiplexador_99.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "multiplexador_99" is an NCD, version 3.1, device xc3s500e, package fg320,
+speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            2 out of 232     1%
+      Number of LOCed IBUFs            0 out of 2       0%
+
+   Number of External IOBs            12 out of 176     6%
+      Number of LOCed IOBs             0 out of 12      0%
+
+   Number of Slices                   65 out of 4656    1%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:9897e7) REAL time: 2 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 3 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 3 secs 
+
+Phase 5.3
+Phase 5.3 (Checksum:2faf07b) REAL time: 3 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 3 secs 
+
+Phase 7.8
+..
+.
+Phase 7.8 (Checksum:9a4633) REAL time: 4 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 4 secs 
+
+Phase 9.18
+Phase 9.18 (Checksum:55d4a77) REAL time: 4 secs 
+
+Phase 10.5
+Phase 10.5 (Checksum:5f5e0f6) REAL time: 4 secs 
+
+Writing design to file multiplexador_99.ncd
+
+
+Total REAL time to Placer completion: 4 secs 
+Total CPU time to Placer completion: 4 secs 
+
+Starting Router
+
+Phase 1: 534 unrouted;       REAL time: 5 secs 
+
+Phase 2: 497 unrouted;       REAL time: 5 secs 
+
+Phase 3: 101 unrouted;       REAL time: 5 secs 
+
+Phase 4: 101 unrouted; (481)      REAL time: 5 secs 
+
+Phase 5: 102 unrouted; (6)      REAL time: 5 secs 
+
+Phase 6: 107 unrouted; (0)      REAL time: 5 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 5 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 5 secs 
+
+
+Total REAL time to Router completion: 5 secs 
+Total CPU time to Router completion: 5 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP |  BUFGMUX_X2Y1| No   |   36 |  0.003     |  1.072      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 9.990ns    | 4    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 5 secs 
+
+Peak Memory Usage:  169 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file multiplexador_99.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "multiplexador_99" is an NCD, version 3.1, device xc3s500e, package fg320,
+speed -4
+
+Analysis completed Wed Apr 03 20:44:22 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd" in Library work.
+Entity <multiplexador_99> compiled.
+Entity <multiplexador_99> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <multiplexador_99> (Architecture <behavioral>).
+Entity <multiplexador_99> analyzed. Unit <multiplexador_99> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <multiplexador_99>.
+    Related source file is "C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd".
+    Found 14-bit 4-to-1 multiplexer for signal <$n0050>.
+    Found 14-bit adder for signal <$n0051> created at line 107.
+    Found 4-bit up counter for signal <centena>.
+    Found 19-bit up counter for signal <count>.
+    Found 4-bit up counter for signal <dezena>.
+    Found 4-bit up counter for signal <milhar>.
+    Found 14-bit register for signal <mux>.
+    Found 8-bit register for signal <segment>.
+    Found 4-bit register for signal <transistor>.
+    Found 4-bit up counter for signal <unidade>.
+    Summary:
+	inferred   5 Counter(s).
+	inferred  22 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  14 Multiplexer(s).
+Unit <multiplexador_99> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 14-bit adder                      : 1
+# Counters                         : 5
+ 19-bit up counter                 : 1
+ 4-bit up counter                  : 4
+# Registers                        : 3
+ 14-bit register                   : 1
+ 4-bit register                    : 1
+ 8-bit register                    : 1
+# Multiplexers                     : 1
+ 14-bit 4-to-1 multiplexer         : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplexador_99> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplexador_99, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                     102  out of   4656     2%  
+ Number of Slice Flip Flops:            61  out of   9312     0%  
+ Number of 4 input LUTs:               188  out of   9312     2%  
+ Number of bonded IOBs:                 14  out of    232     6%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 61    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 10.181ns (Maximum Frequency: 98.222MHz)
+   Minimum input arrival time before clock: 5.958ns
+   Maximum output required time after clock: 8.102ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\multiplexador_99/_ngo -nt timestamp -uc
+multiplexador_99.ucf -p xc3s500e-fg320-4 multiplexador_99.ngc
+multiplexador_99.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.ngc'
+...
+
+Applying constraints in "multiplexador_99.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "multiplexador_99.ngd" ...
+
+Writing NGDBUILD log file "multiplexador_99.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          61 out of   9,312    1%
+  Number of 4 input LUTs:             171 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                           98 out of   4,656    2%
+    Number of Slices containing only related logic:      98 out of      98  100%
+    Number of Slices containing unrelated logic:          0 out of      98    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            189 out of   9,312    2%
+  Number used as logic:                171
+  Number used as a route-thru:          18
+  Number of bonded IOBs:               14 out of     232    6%
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  1,715
+Additional JTAG gate count for IOBs:  672
+Peak Memory Usage:  191 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "multiplexador_99_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: multiplexador_99.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "multiplexador_99" is an NCD, version 3.1, device xc3s500e, package fg320,
+speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            2 out of 232     1%
+      Number of LOCed IBUFs            0 out of 2       0%
+
+   Number of External IOBs            12 out of 176     6%
+      Number of LOCed IOBs             0 out of 12      0%
+
+   Number of Slices                   98 out of 4656    2%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:9898cb) REAL time: 2 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 3 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 3 secs 
+
+Phase 5.3
+Phase 5.3 (Checksum:2faf07b) REAL time: 3 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 3 secs 
+
+Phase 7.8
+......
+...
+Phase 7.8 (Checksum:9bfb74) REAL time: 3 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 3 secs 
+
+Phase 9.18
+Phase 9.18 (Checksum:55d4a77) REAL time: 3 secs 
+
+Phase 10.5
+Phase 10.5 (Checksum:5f5e0f6) REAL time: 3 secs 
+
+Writing design to file multiplexador_99.ncd
+
+
+Total REAL time to Placer completion: 3 secs 
+Total CPU time to Placer completion: 3 secs 
+
+Starting Router
+
+Phase 1: 728 unrouted;       REAL time: 4 secs 
+
+Phase 2: 690 unrouted;       REAL time: 4 secs 
+
+Phase 3: 147 unrouted;       REAL time: 4 secs 
+
+Phase 4: 147 unrouted; (19296)      REAL time: 4 secs 
+
+Phase 5: 163 unrouted; (0)      REAL time: 5 secs 
+
+Phase 6: 163 unrouted; (0)      REAL time: 5 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 5 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 5 secs 
+
+
+Total REAL time to Router completion: 5 secs 
+Total CPU time to Router completion: 5 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP |  BUFGMUX_X2Y1| No   |   37 |  0.020     |  1.070      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 9.656ns    | 5    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 5 secs 
+
+Peak Memory Usage:  169 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file multiplexador_99.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "multiplexador_99" is an NCD, version 3.1, device xc3s500e, package fg320,
+speed -4
+
+Analysis completed Wed Apr 03 21:00:49 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd" in Library work.
+Entity <multiplexador_99> compiled.
+Entity <multiplexador_99> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <multiplexador_99> (Architecture <behavioral>).
+Entity <multiplexador_99> analyzed. Unit <multiplexador_99> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <multiplexador_99>.
+    Related source file is "C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd".
+    Found 14-bit 4-to-1 multiplexer for signal <$n0050>.
+    Found 14-bit adder for signal <$n0051> created at line 107.
+    Found 4-bit up counter for signal <centena>.
+    Found 19-bit up counter for signal <count>.
+    Found 4-bit up counter for signal <dezena>.
+    Found 4-bit up counter for signal <milhar>.
+    Found 14-bit register for signal <mux>.
+    Found 8-bit register for signal <segment>.
+    Found 4-bit register for signal <transistor>.
+    Found 4-bit up counter for signal <unidade>.
+    Summary:
+	inferred   5 Counter(s).
+	inferred  22 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  14 Multiplexer(s).
+Unit <multiplexador_99> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 14-bit adder                      : 1
+# Counters                         : 5
+ 19-bit up counter                 : 1
+ 4-bit up counter                  : 4
+# Registers                        : 3
+ 14-bit register                   : 1
+ 4-bit register                    : 1
+ 8-bit register                    : 1
+# Multiplexers                     : 1
+ 14-bit 4-to-1 multiplexer         : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplexador_99> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplexador_99, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                     100  out of   4656     2%  
+ Number of Slice Flip Flops:            61  out of   9312     0%  
+ Number of 4 input LUTs:               185  out of   9312     1%  
+ Number of bonded IOBs:                 14  out of    232     6%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 61    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 10.118ns (Maximum Frequency: 98.834MHz)
+   Minimum input arrival time before clock: 5.958ns
+   Maximum output required time after clock: 8.102ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\multiplexador_99/_ngo -nt timestamp -uc
+multiplexador_99.ucf -p xc3s500e-fg320-4 multiplexador_99.ngc
+multiplexador_99.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.ngc'
+...
+
+Applying constraints in "multiplexador_99.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "multiplexador_99.ngd" ...
+
+Writing NGDBUILD log file "multiplexador_99.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          61 out of   9,312    1%
+  Number of 4 input LUTs:             168 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                           98 out of   4,656    2%
+    Number of Slices containing only related logic:      98 out of      98  100%
+    Number of Slices containing unrelated logic:          0 out of      98    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            186 out of   9,312    1%
+  Number used as logic:                168
+  Number used as a route-thru:          18
+  Number of bonded IOBs:               14 out of     232    6%
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  1,697
+Additional JTAG gate count for IOBs:  672
+Peak Memory Usage:  191 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "multiplexador_99_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: multiplexador_99.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "multiplexador_99" is an NCD, version 3.1, device xc3s500e, package fg320,
+speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            2 out of 232     1%
+      Number of LOCed IBUFs            0 out of 2       0%
+
+   Number of External IOBs            12 out of 176     6%
+      Number of LOCed IOBs             0 out of 12      0%
+
+   Number of Slices                   98 out of 4656    2%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:9898cb) REAL time: 2 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 3 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 3 secs 
+
+Phase 5.3
+Phase 5.3 (Checksum:2faf07b) REAL time: 3 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 3 secs 
+
+Phase 7.8
+....
+..
+Phase 7.8 (Checksum:9b0c08) REAL time: 3 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 3 secs 
+
+Phase 9.18
+Phase 9.18 (Checksum:55d4a77) REAL time: 3 secs 
+
+Phase 10.5
+Phase 10.5 (Checksum:5f5e0f6) REAL time: 3 secs 
+
+Writing design to file multiplexador_99.ncd
+
+
+Total REAL time to Placer completion: 4 secs 
+Total CPU time to Placer completion: 3 secs 
+
+Starting Router
+
+Phase 1: 728 unrouted;       REAL time: 4 secs 
+
+Phase 2: 690 unrouted;       REAL time: 4 secs 
+
+Phase 3: 116 unrouted;       REAL time: 5 secs 
+
+Phase 4: 116 unrouted; (850)      REAL time: 5 secs 
+
+Phase 5: 121 unrouted; (181)      REAL time: 5 secs 
+
+Phase 6: 128 unrouted; (0)      REAL time: 5 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 5 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 5 secs 
+
+
+Total REAL time to Router completion: 5 secs 
+Total CPU time to Router completion: 5 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP |  BUFGMUX_X2Y1| No   |   37 |  0.021     |  1.071      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 9.736ns    | 5    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 5 secs 
+
+Peak Memory Usage:  170 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file multiplexador_99.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "multiplexador_99" is an NCD, version 3.1, device xc3s500e, package fg320,
+speed -4
+
+Analysis completed Wed Apr 03 21:03:48 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd" in Library work.
+Entity <multiplexador_99> compiled.
+Entity <multiplexador_99> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <multiplexador_99> (Architecture <behavioral>).
+Entity <multiplexador_99> analyzed. Unit <multiplexador_99> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <multiplexador_99>.
+    Related source file is "C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd".
+    Found 14-bit 4-to-1 multiplexer for signal <$n0050>.
+    Found 14-bit adder for signal <$n0051> created at line 107.
+    Found 4-bit up counter for signal <centena>.
+    Found 19-bit up counter for signal <count>.
+    Found 4-bit up counter for signal <dezena>.
+    Found 4-bit up counter for signal <milhar>.
+    Found 14-bit register for signal <mux>.
+    Found 8-bit register for signal <segment>.
+    Found 4-bit register for signal <transistor>.
+    Found 4-bit up counter for signal <unidade>.
+    Summary:
+	inferred   5 Counter(s).
+	inferred  22 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  14 Multiplexer(s).
+Unit <multiplexador_99> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 14-bit adder                      : 1
+# Counters                         : 5
+ 19-bit up counter                 : 1
+ 4-bit up counter                  : 4
+# Registers                        : 3
+ 14-bit register                   : 1
+ 4-bit register                    : 1
+ 8-bit register                    : 1
+# Multiplexers                     : 1
+ 14-bit 4-to-1 multiplexer         : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplexador_99> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplexador_99, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                     100  out of   4656     2%  
+ Number of Slice Flip Flops:            61  out of   9312     0%  
+ Number of 4 input LUTs:               185  out of   9312     1%  
+ Number of bonded IOBs:                 14  out of    232     6%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 61    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 10.118ns (Maximum Frequency: 98.834MHz)
+   Minimum input arrival time before clock: 5.958ns
+   Maximum output required time after clock: 8.102ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\multiplexador_99/_ngo -nt timestamp -uc
+multiplexador_99.ucf -p xc3s500e-fg320-4 multiplexador_99.ngc
+multiplexador_99.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.ngc'
+...
+
+Applying constraints in "multiplexador_99.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "multiplexador_99.ngd" ...
+
+Writing NGDBUILD log file "multiplexador_99.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          61 out of   9,312    1%
+  Number of 4 input LUTs:             168 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                           98 out of   4,656    2%
+    Number of Slices containing only related logic:      98 out of      98  100%
+    Number of Slices containing unrelated logic:          0 out of      98    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            186 out of   9,312    1%
+  Number used as logic:                168
+  Number used as a route-thru:          18
+  Number of bonded IOBs:               14 out of     232    6%
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  1,697
+Additional JTAG gate count for IOBs:  672
+Peak Memory Usage:  191 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "multiplexador_99_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: multiplexador_99.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "multiplexador_99" is an NCD, version 3.1, device xc3s500e, package fg320,
+speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            2 out of 232     1%
+      Number of LOCed IBUFs            0 out of 2       0%
+
+   Number of External IOBs            12 out of 176     6%
+      Number of LOCed IOBs             0 out of 12      0%
+
+   Number of Slices                   98 out of 4656    2%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:9898cb) REAL time: 2 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 3 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 3 secs 
+
+Phase 5.3
+Phase 5.3 (Checksum:2faf07b) REAL time: 3 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 3 secs 
+
+Phase 7.8
+....
+..
+Phase 7.8 (Checksum:9b0c08) REAL time: 3 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 3 secs 
+
+Phase 9.18
+Phase 9.18 (Checksum:55d4a77) REAL time: 4 secs 
+
+Phase 10.5
+Phase 10.5 (Checksum:5f5e0f6) REAL time: 4 secs 
+
+Writing design to file multiplexador_99.ncd
+
+
+Total REAL time to Placer completion: 4 secs 
+Total CPU time to Placer completion: 4 secs 
+
+Starting Router
+
+Phase 1: 728 unrouted;       REAL time: 5 secs 
+
+Phase 2: 690 unrouted;       REAL time: 5 secs 
+
+Phase 3: 116 unrouted;       REAL time: 5 secs 
+
+Phase 4: 116 unrouted; (850)      REAL time: 5 secs 
+
+Phase 5: 121 unrouted; (181)      REAL time: 5 secs 
+
+Phase 6: 128 unrouted; (0)      REAL time: 5 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 5 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 5 secs 
+
+
+Total REAL time to Router completion: 5 secs 
+Total CPU time to Router completion: 5 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP |  BUFGMUX_X2Y1| No   |   37 |  0.021     |  1.071      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 9.736ns    | 5    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 5 secs 
+
+Peak Memory Usage:  169 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file multiplexador_99.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "multiplexador_99" is an NCD, version 3.1, device xc3s500e, package fg320,
+speed -4
+
+Analysis completed Wed Apr 03 21:06:03 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd" in Library work.
+Entity <multiplexador_99> compiled.
+Entity <multiplexador_99> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <multiplexador_99> (Architecture <behavioral>).
+Entity <multiplexador_99> analyzed. Unit <multiplexador_99> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <multiplexador_99>.
+    Related source file is "C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd".
+    Found 14-bit 4-to-1 multiplexer for signal <$n0050>.
+    Found 14-bit adder for signal <$n0051> created at line 107.
+    Found 4-bit up counter for signal <centena>.
+    Found 19-bit up counter for signal <count>.
+    Found 4-bit up counter for signal <dezena>.
+    Found 4-bit up counter for signal <milhar>.
+    Found 14-bit register for signal <mux>.
+    Found 8-bit register for signal <segment>.
+    Found 4-bit register for signal <transistor>.
+    Found 4-bit up counter for signal <unidade>.
+    Summary:
+	inferred   5 Counter(s).
+	inferred  22 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  14 Multiplexer(s).
+Unit <multiplexador_99> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 14-bit adder                      : 1
+# Counters                         : 5
+ 19-bit up counter                 : 1
+ 4-bit up counter                  : 4
+# Registers                        : 3
+ 14-bit register                   : 1
+ 4-bit register                    : 1
+ 8-bit register                    : 1
+# Multiplexers                     : 1
+ 14-bit 4-to-1 multiplexer         : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplexador_99> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplexador_99, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                     105  out of   4656     2%  
+ Number of Slice Flip Flops:            61  out of   9312     0%  
+ Number of 4 input LUTs:               195  out of   9312     2%  
+ Number of bonded IOBs:                 14  out of    232     6%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 61    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 10.118ns (Maximum Frequency: 98.834MHz)
+   Minimum input arrival time before clock: 5.958ns
+   Maximum output required time after clock: 8.092ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\multiplexador_99/_ngo -nt timestamp -uc
+multiplexador_99.ucf -p xc3s500e-fg320-4 multiplexador_99.ngc
+multiplexador_99.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.ngc'
+...
+
+Applying constraints in "multiplexador_99.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "multiplexador_99.ngd" ...
+
+Writing NGDBUILD log file "multiplexador_99.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          61 out of   9,312    1%
+  Number of 4 input LUTs:             178 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                          102 out of   4,656    2%
+    Number of Slices containing only related logic:     102 out of     102  100%
+    Number of Slices containing unrelated logic:          0 out of     102    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            196 out of   9,312    2%
+  Number used as logic:                178
+  Number used as a route-thru:          18
+  Number of bonded IOBs:               14 out of     232    6%
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  1,754
+Additional JTAG gate count for IOBs:  672
+Peak Memory Usage:  191 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "multiplexador_99_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: multiplexador_99.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "multiplexador_99" is an NCD, version 3.1, device xc3s500e, package fg320,
+speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            2 out of 232     1%
+      Number of LOCed IBUFs            0 out of 2       0%
+
+   Number of External IOBs            12 out of 176     6%
+      Number of LOCed IOBs             0 out of 12      0%
+
+   Number of Slices                  102 out of 4656    2%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:9898e3) REAL time: 2 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 3 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 3 secs 
+
+Phase 5.3
+Phase 5.3 (Checksum:2faf07b) REAL time: 3 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 3 secs 
+
+Phase 7.8
+.....
+...
+Phase 7.8 (Checksum:9bed9e) REAL time: 4 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 4 secs 
+
+Phase 9.18
+Phase 9.18 (Checksum:55d4a77) REAL time: 4 secs 
+
+Phase 10.5
+Phase 10.5 (Checksum:5f5e0f6) REAL time: 4 secs 
+
+Writing design to file multiplexador_99.ncd
+
+
+Total REAL time to Placer completion: 4 secs 
+Total CPU time to Placer completion: 4 secs 
+
+Starting Router
+
+Phase 1: 761 unrouted;       REAL time: 5 secs 
+
+Phase 2: 722 unrouted;       REAL time: 5 secs 
+
+Phase 3: 140 unrouted;       REAL time: 5 secs 
+
+Phase 4: 140 unrouted; (16858)      REAL time: 5 secs 
+
+Phase 5: 150 unrouted; (381)      REAL time: 5 secs 
+
+Phase 6: 153 unrouted; (0)      REAL time: 5 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 5 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 5 secs 
+
+
+Total REAL time to Router completion: 5 secs 
+Total CPU time to Router completion: 5 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP |  BUFGMUX_X2Y1| No   |   38 |  0.020     |  1.070      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 9.972ns    | 6    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 5 secs 
+
+Peak Memory Usage:  169 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file multiplexador_99.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "multiplexador_99" is an NCD, version 3.1, device xc3s500e, package fg320,
+speed -4
+
+Analysis completed Wed Apr 03 21:09:02 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\multiplexador_99/_ngo -nt timestamp -uc
+multiplexador_99.ucf -p xc3s500e-fg320-4 multiplexador_99.ngc
+multiplexador_99.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.ngc'
+...
+
+Applying constraints in "multiplexador_99.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "multiplexador_99.ngd" ...
+
+Writing NGDBUILD log file "multiplexador_99.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          61 out of   9,312    1%
+  Number of 4 input LUTs:             178 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                          102 out of   4,656    2%
+    Number of Slices containing only related logic:     102 out of     102  100%
+    Number of Slices containing unrelated logic:          0 out of     102    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            196 out of   9,312    2%
+  Number used as logic:                178
+  Number used as a route-thru:          18
+  Number of bonded IOBs:               14 out of     232    6%
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  1,754
+Additional JTAG gate count for IOBs:  672
+Peak Memory Usage:  191 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "multiplexador_99_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: multiplexador_99.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "multiplexador_99" is an NCD, version 3.1, device xc3s500e, package fg320,
+speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            2 out of 232     1%
+      Number of LOCed IBUFs            2 out of 2     100%
+
+   Number of External IOBs            12 out of 176     6%
+      Number of LOCed IOBs            12 out of 12    100%
+
+   Number of Slices                  102 out of 4656    2%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:9898e3) REAL time: 2 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 3 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 3 secs 
+
+Phase 5.8
+....................
+..............
+Phase 5.8 (Checksum:a11d4f) REAL time: 4 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 4 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 4 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 4 secs 
+
+Writing design to file multiplexador_99.ncd
+
+
+Total REAL time to Placer completion: 4 secs 
+Total CPU time to Placer completion: 4 secs 
+
+Starting Router
+
+Phase 1: 761 unrouted;       REAL time: 5 secs 
+
+Phase 2: 722 unrouted;       REAL time: 5 secs 
+
+Phase 3: 162 unrouted;       REAL time: 5 secs 
+
+Phase 4: 162 unrouted; (11685)      REAL time: 5 secs 
+
+Phase 5: 179 unrouted; (18)      REAL time: 5 secs 
+
+Phase 6: 181 unrouted; (0)      REAL time: 5 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 5 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 5 secs 
+
+
+Total REAL time to Router completion: 5 secs 
+Total CPU time to Router completion: 5 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP | BUFGMUX_X2Y11| No   |   38 |  0.020     |  1.070      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 9.969ns    | 6    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 5 secs 
+
+Peak Memory Usage:  169 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file multiplexador_99.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "multiplexador_99" is an NCD, version 3.1, device xc3s500e, package fg320,
+speed -4
+
+Analysis completed Wed Apr 03 21:11:09 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd" in Library work.
+Entity <multiplexador_99> compiled.
+Entity <multiplexador_99> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <multiplexador_99> (Architecture <behavioral>).
+Entity <multiplexador_99> analyzed. Unit <multiplexador_99> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <multiplexador_99>.
+    Related source file is "C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd".
+    Found 14-bit 4-to-1 multiplexer for signal <$n0050>.
+    Found 14-bit adder for signal <$n0051> created at line 107.
+    Found 4-bit up counter for signal <centena>.
+    Found 23-bit up counter for signal <count>.
+    Found 4-bit up counter for signal <dezena>.
+    Found 4-bit up counter for signal <milhar>.
+    Found 14-bit register for signal <mux>.
+    Found 8-bit register for signal <segment>.
+    Found 4-bit register for signal <transistor>.
+    Found 4-bit up counter for signal <unidade>.
+    Summary:
+	inferred   5 Counter(s).
+	inferred  22 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  14 Multiplexer(s).
+Unit <multiplexador_99> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 14-bit adder                      : 1
+# Counters                         : 5
+ 23-bit up counter                 : 1
+ 4-bit up counter                  : 4
+# Registers                        : 3
+ 14-bit register                   : 1
+ 4-bit register                    : 1
+ 8-bit register                    : 1
+# Multiplexers                     : 1
+ 14-bit 4-to-1 multiplexer         : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplexador_99> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplexador_99, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                     109  out of   4656     2%  
+ Number of Slice Flip Flops:            65  out of   9312     0%  
+ Number of 4 input LUTs:               203  out of   9312     2%  
+ Number of bonded IOBs:                 14  out of    232     6%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 65    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 10.428ns (Maximum Frequency: 95.896MHz)
+   Minimum input arrival time before clock: 5.981ns
+   Maximum output required time after clock: 8.092ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\multiplexador_99/_ngo -nt timestamp -uc
+multiplexador_99.ucf -p xc3s500e-fg320-4 multiplexador_99.ngc
+multiplexador_99.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.ngc'
+...
+
+Applying constraints in "multiplexador_99.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "multiplexador_99.ngd" ...
+
+Writing NGDBUILD log file "multiplexador_99.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          65 out of   9,312    1%
+  Number of 4 input LUTs:             185 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                          106 out of   4,656    2%
+    Number of Slices containing only related logic:     106 out of     106  100%
+    Number of Slices containing unrelated logic:          0 out of     106    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            204 out of   9,312    2%
+  Number used as logic:                185
+  Number used as a route-thru:          19
+  Number of bonded IOBs:               14 out of     232    6%
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  1,858
+Additional JTAG gate count for IOBs:  672
+Peak Memory Usage:  191 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "multiplexador_99_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: multiplexador_99.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "multiplexador_99" is an NCD, version 3.1, device xc3s500e, package fg320,
+speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            2 out of 232     1%
+      Number of LOCed IBUFs            2 out of 2     100%
+
+   Number of External IOBs            12 out of 176     6%
+      Number of LOCed IOBs            12 out of 12    100%
+
+   Number of Slices                  106 out of 4656    2%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:9898ef) REAL time: 2 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 3 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 3 secs 
+
+Phase 5.8
+..................................
+..
+Phase 5.8 (Checksum:9c32da) REAL time: 4 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 4 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 4 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 4 secs 
+
+Writing design to file multiplexador_99.ncd
+
+
+Total REAL time to Placer completion: 4 secs 
+Total CPU time to Placer completion: 4 secs 
+
+Starting Router
+
+Phase 1: 794 unrouted;       REAL time: 5 secs 
+
+Phase 2: 753 unrouted;       REAL time: 5 secs 
+
+Phase 3: 152 unrouted;       REAL time: 5 secs 
+
+Phase 4: 152 unrouted; (14899)      REAL time: 5 secs 
+
+Phase 5: 171 unrouted; (249)      REAL time: 5 secs 
+
+Phase 6: 176 unrouted; (0)      REAL time: 5 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 5 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 5 secs 
+
+
+Total REAL time to Router completion: 5 secs 
+Total CPU time to Router completion: 5 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP | BUFGMUX_X2Y11| No   |   40 |  0.020     |  1.070      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 9.920ns    | 4    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 5 secs 
+
+Peak Memory Usage:  169 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file multiplexador_99.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "multiplexador_99" is an NCD, version 3.1, device xc3s500e, package fg320,
+speed -4
+
+Analysis completed Wed Apr 03 21:14:01 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd" in Library work.
+Entity <multiplexador_99> compiled.
+Entity <multiplexador_99> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <multiplexador_99> (Architecture <behavioral>).
+Entity <multiplexador_99> analyzed. Unit <multiplexador_99> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <multiplexador_99>.
+    Related source file is "C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.vhd".
+    Found 14-bit 4-to-1 multiplexer for signal <$n0050>.
+    Found 14-bit adder for signal <$n0051> created at line 107.
+    Found 4-bit up counter for signal <centena>.
+    Found 19-bit up counter for signal <count>.
+    Found 4-bit up counter for signal <dezena>.
+    Found 4-bit up counter for signal <milhar>.
+    Found 14-bit register for signal <mux>.
+    Found 8-bit register for signal <segment>.
+    Found 4-bit register for signal <transistor>.
+    Found 4-bit up counter for signal <unidade>.
+    Summary:
+	inferred   5 Counter(s).
+	inferred  22 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  14 Multiplexer(s).
+Unit <multiplexador_99> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors               : 1
+ 14-bit adder                      : 1
+# Counters                         : 5
+ 19-bit up counter                 : 1
+ 4-bit up counter                  : 4
+# Registers                        : 3
+ 14-bit register                   : 1
+ 4-bit register                    : 1
+ 8-bit register                    : 1
+# Multiplexers                     : 1
+ 14-bit 4-to-1 multiplexer         : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <multiplexador_99> ...
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:/Users/Felipe/Desktop/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block multiplexador_99, actual ratio is 2.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                     105  out of   4656     2%  
+ Number of Slice Flip Flops:            61  out of   9312     0%  
+ Number of 4 input LUTs:               195  out of   9312     2%  
+ Number of bonded IOBs:                 14  out of    232     6%  
+ Number of GCLKs:                        1  out of     24     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 61    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 10.118ns (Maximum Frequency: 98.834MHz)
+   Minimum input arrival time before clock: 5.958ns
+   Maximum output required time after clock: 8.092ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd
+c:\users\felipe\desktop\multiplexador_99/_ngo -nt timestamp -uc
+multiplexador_99.ucf -p xc3s500e-fg320-4 multiplexador_99.ngc
+multiplexador_99.ngd 
+
+Reading NGO file 'C:/Users/Felipe/Desktop/multiplexador_99/multiplexador_99.ngc'
+...
+
+Applying constraints in "multiplexador_99.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "multiplexador_99.ngd" ...
+
+Writing NGDBUILD log file "multiplexador_99.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s500efg320-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          61 out of   9,312    1%
+  Number of 4 input LUTs:             178 out of   9,312    1%
+Logic Distribution:
+  Number of occupied Slices:                          102 out of   4,656    2%
+    Number of Slices containing only related logic:     102 out of     102  100%
+    Number of Slices containing unrelated logic:          0 out of     102    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            196 out of   9,312    2%
+  Number used as logic:                178
+  Number used as a route-thru:          18
+  Number of bonded IOBs:               14 out of     232    6%
+  Number of GCLKs:                     1 out of      24    4%
+
+Total equivalent gate count for design:  1,754
+Additional JTAG gate count for IOBs:  672
+Peak Memory Usage:  191 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "multiplexador_99_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: multiplexador_99.pcf.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "multiplexador_99" is an NCD, version 3.1, device xc3s500e, package fg320,
+speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "ADVANCED 1.13 2005-05-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 24      4%
+   Number of External IBUFs            2 out of 232     1%
+      Number of LOCed IBUFs            2 out of 2     100%
+
+   Number of External IOBs            12 out of 176     6%
+      Number of LOCed IOBs            12 out of 12    100%
+
+   Number of Slices                  102 out of 4656    2%
+      Number of SLICEMs                0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:9898e3) REAL time: 2 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.2
+.
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 4 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 4 secs 
+
+Phase 5.8
+....................
+..............
+Phase 5.8 (Checksum:a11d4f) REAL time: 4 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 4 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 4 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 4 secs 
+
+Writing design to file multiplexador_99.ncd
+
+
+Total REAL time to Placer completion: 4 secs 
+Total CPU time to Placer completion: 4 secs 
+
+Starting Router
+
+Phase 1: 761 unrouted;       REAL time: 5 secs 
+
+Phase 2: 722 unrouted;       REAL time: 5 secs 
+
+Phase 3: 162 unrouted;       REAL time: 5 secs 
+
+Phase 4: 162 unrouted; (11685)      REAL time: 5 secs 
+
+Phase 5: 179 unrouted; (18)      REAL time: 5 secs 
+
+Phase 6: 181 unrouted; (0)      REAL time: 5 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 5 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 5 secs 
+
+
+Total REAL time to Router completion: 5 secs 
+Total CPU time to Router completion: 5 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         clock_BUFGP | BUFGMUX_X2Y11| No   |   38 |  0.020     |  1.070      |
++---------------------+--------------+------+------+------------+-------------+
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  TS_clock = PERIOD TIMEGRP "clock" 10 ns H | 10.000ns   | 9.969ns    | 6    
+  IGH 50%                                   |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 5 secs 
+
+Peak Memory Usage:  169 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file multiplexador_99.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:/Users/Felipe/Desktop/Xilinx.
+   "multiplexador_99" is an NCD, version 3.1, device xc3s500e, package fg320,
+speed -4
+
+Analysis completed Wed Apr 03 21:15:45 2024
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
